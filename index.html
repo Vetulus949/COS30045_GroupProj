@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description"    content="Data Visualization"/>
+    <meta name="keywords"       content="HTML, CSS, D3"/>
+    <meta name="author"         content=""/>
+    <title>Assignment</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <p id="chart">
+        <script>
+            var w = 500;
+            var h = 300;
+            var projection = d3.geoMercator()
+                .center([0, 0])
+                .translate([w/2, h/2])
+                .scale(100);
+            var path = d3.geoPath()
+                .projection(projection)
+            var svg = d3.select("#chart")
+                .append("svg")
+                .attr("width", w)
+                .attr("height", h)
+                .attr("fill", "grey");
+            d3.json("globe.geo.json").then(function(json) {
+                svg.selectAll("path")
+                    .data(json.features)
+                    .enter()
+                    .append("path")
+                    .attr("d", path);
+            });
+        </script>
+    </p>
+    <br/>
+    <br/>
+    <footer style="color:grey"><br/>COS30045 Data Visualization<br/></footer>
+</body>
+</html>
