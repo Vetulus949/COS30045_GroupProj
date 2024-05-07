@@ -67,7 +67,7 @@ def remove_data_column():
     writer = csv.writer(tf2)
     # select method
     if (method == "1"):
-        index_to_remove = input("enter the index to remove:\t")
+        index_to_remove = int(input("enter the index to remove:\t"))
         for r in reader:
             row = []
             for i in range(len(r)):
