@@ -1,2 +1,0 @@
-STRUCTURE,STRUCTURE_ID,STRUCTURE_NAME,ACTION,REF_AREA,Reference area,FREQ,Frequency of observation,MEASURE,Measure,UNIT_MEASURE,Unit of measure,AGE,Age,SEX,Sex,SOCIO_ECON_STATUS,Socio-economic status,DEATH_CAUSE,Cause of death,CALC_METHODOLOGY,Calculation methodology,GESTATION_THRESHOLD,Gestation period threshold,HEALTH_STATUS,Health status,DISEASE,Disease,CANCER_SITE,Cancer site,TIME_PERIOD,Time period,OBS_VALUE,Observation value,DECIMALS,Decimals,OBS_STATUS,Observation status,OBS_STATUS2,Observation status 2,OBS_STATUS3,Observation status 3,UNIT_MULT,Unit multiplier
-
