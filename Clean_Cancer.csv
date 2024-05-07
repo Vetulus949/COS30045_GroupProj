@@ -1,0 +1,1489 @@
+Reference area,Unit of measure,Age,Sex,CANCER_SITE,Cancer site,TIME_PERIOD,OBS_VALUE
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,48
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,53.4
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,57.5
+Iceland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,30
+Iceland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,29.3
+Iceland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,31
+Sweden,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,81
+Sweden,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,87.8
+Sweden,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,82.7
+Sweden,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,80.4
+Austria,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,250.7
+Austria,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,275.5
+Austria,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,250.6
+Austria,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,254.1
+France,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,33.3
+France,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,33.4
+France,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,29.4
+France,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,30
+Colombia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,11
+Estonia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,15.8
+Estonia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,19.9
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,247.3
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,273.6
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,269.4
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,272.9
+Korea,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,15.8
+Korea,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,25.6
+Korea,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,33.3
+Italy,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,254.1
+Italy,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,276.5
+Italy,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,274.3
+Italy,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,278.6
+Netherlands,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,299.6
+Netherlands,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,314.6
+Netherlands,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,318.4
+Netherlands,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,327.8
+Brazil,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,231.6
+Indonesia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,10.1
+United States,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,101.1
+United States,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,76
+United States,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,92.9
+Czechia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,58.5
+Czechia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,60.7
+Czechia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,54
+Australia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,16.8
+Australia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,19.2
+Australia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,21.5
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,18.5
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,15.8
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,16.1
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,3.6
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,8.7
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,6.3
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,4.9
+Canada,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,272.4
+Canada,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,275
+Canada,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,277.4
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,30.5
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,39.8
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,50
+Denmark,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,46.8
+Denmark,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,45.3
+Denmark,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,43.4
+Denmark,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,41.6
+South Africa,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,18.5
+Italy,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,290.5
+Italy,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,321.3
+Italy,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,310
+Italy,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,312.9
+Ireland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,7.9
+Ireland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,7.2
+Ireland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,10.9
+Ireland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,13.6
+Costa Rica,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,15.9
+India,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,6.9
+Lithuania,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,251.9
+Hungary,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,56.6
+Hungary,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,60.6
+Hungary,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,58.9
+Türkiye,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,8.8
+Türkiye,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,11
+Türkiye,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,16.6
+Belgium,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,57.5
+Belgium,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,74.2
+Belgium,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,102.3
+Belgium,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,90.9
+Ireland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,47.8
+Ireland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,56.3
+Ireland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,126.3
+Ireland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,114.2
+Spain,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,272.3
+Spain,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,307.6
+Spain,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,309.9
+Spain,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,312.8
+Russia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,24
+Latvia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,30
+Switzerland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,23.8
+Switzerland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,25.2
+Switzerland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,21.5
+Switzerland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,23.6
+Belgium,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,82.2
+Belgium,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,92
+Belgium,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,109.4
+Belgium,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,111.9
+Portugal,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,33.9
+Portugal,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,34.2
+Portugal,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,29
+Portugal,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,34.2
+Lithuania,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,26.2
+Spain,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,219.3
+Spain,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,243.4
+Spain,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,241.4
+Spain,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,249
+Finland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,222.6
+Finland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,227.9
+Finland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,229.9
+Finland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,234.2
+Poland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,31.9
+Poland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,32.7
+Poland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,37.2
+Lithuania,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,55.4
+Latvia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,7.9
+Greece,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,13.6
+Greece,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,15.6
+Greece,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,11.5
+Greece,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,11.2
+Denmark,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,287.8
+Denmark,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,281.4
+Denmark,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,321.1
+Denmark,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,338.1
+Israel,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,16.1
+Israel,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,14.4
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,50.4
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,57.2
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,74.8
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,78.8
+Mexico,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,7.9
+Mexico,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,7
+Mexico,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,8.9
+Austria,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,27
+Austria,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,28.5
+Austria,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,25.1
+Austria,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,27.5
+Belgium,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,28
+Belgium,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,26.8
+Belgium,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,28.6
+Belgium,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,29.5
+India,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,22
+Israel,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,280.4
+Israel,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,258.7
+Slovenia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,231.8
+Slovenia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,251.5
+Estonia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,42.8
+Estonia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,94.4
+Denmark,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,37.3
+Denmark,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,37.6
+Denmark,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,39.3
+Denmark,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,39.2
+China (People’s Republic of),Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,14.2
+Spain,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,53.2
+Spain,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,55.8
+Spain,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,53.3
+Spain,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,52.5
+New Zealand,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,100.9
+New Zealand,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,99.7
+New Zealand,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,92.2
+Costa Rica,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,67.5
+Hungary,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,250.7
+Hungary,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,238.5
+Hungary,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,236.5
+Japan,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,12.6
+Japan,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,22.7
+Japan,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,30.4
+India,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,92.4
+China (People’s Republic of),Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,16.9
+Iceland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,288.4
+Iceland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,315.1
+Iceland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,299.5
+Greece,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,158
+Greece,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,171.1
+Greece,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,141.9
+Greece,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,138
+Chile,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,14.4
+Chile,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,15.7
+South Africa,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,224.3
+Germany,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,50.3
+Germany,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,46.7
+Germany,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,42.4
+Germany,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,38.8
+Netherlands,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,39.8
+Netherlands,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,38.8
+Netherlands,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,35
+Netherlands,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,37.2
+India,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,11
+Brazil,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,16.3
+France,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,342.6
+France,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,341.8
+France,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,360.6
+France,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,356
+Denmark,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,278.7
+Denmark,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,277.2
+Denmark,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,337.4
+Denmark,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,354.3
+China (People’s Republic of),Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,20.4
+China (People’s Republic of),Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,139.9
+Chile,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,176.7
+Chile,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,175.7
+Finland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,8.9
+Finland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,10.1
+Finland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,10.8
+Finland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,12.2
+Hungary,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,24.9
+Hungary,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,28.4
+Hungary,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,33.2
+Israel,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,45.6
+Israel,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,43
+Germany,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,30.8
+Germany,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,29.7
+Germany,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,28.1
+Germany,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,27.5
+New Zealand,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,10
+New Zealand,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,5.5
+New Zealand,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,5.3
+Poland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,301.8
+Poland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,284.6
+Poland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,269.2
+Norway,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,10.4
+Norway,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,9.3
+Norway,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,9.8
+Costa Rica,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,169.2
+Hungary,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,45.2
+Hungary,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,42.6
+Hungary,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,42.3
+South Africa,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,28.7
+Japan,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,38.1
+Japan,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,38.7
+Japan,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,38.8
+Japan,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,26.5
+Japan,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,22.8
+Japan,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,23.5
+Norway,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,81.8
+Norway,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,115.6
+Norway,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,129.7
+Estonia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,50.2
+Estonia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,51.6
+Sweden,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,16.8
+Sweden,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,17.8
+Sweden,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,18.5
+Sweden,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,19.1
+Russia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,51.4
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,30.9
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,30.8
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,25.9
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,21.6
+Norway,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,37.1
+Norway,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,35.2
+Norway,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,35.8
+Brazil,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,205.5
+Greece,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,47.6
+Greece,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,51.6
+Greece,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,44.9
+Greece,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,43.9
+Portugal,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,231.6
+Portugal,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,237.9
+Portugal,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,223.2
+Portugal,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,246.2
+New Zealand,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,91.9
+New Zealand,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,89.4
+New Zealand,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,85
+Lithuania,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,23.4
+Switzerland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,11.6
+Switzerland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,13.8
+Switzerland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,17
+Switzerland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,20.7
+Netherlands,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,41.6
+Netherlands,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,40.9
+Netherlands,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,43.3
+Netherlands,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,47.5
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,47.6
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,48.1
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,41.6
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,34.9
+Czechia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,330.9
+Czechia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,343.6
+Czechia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,345.9
+Hungary,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,318.8
+Hungary,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,286.6
+Hungary,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,285.4
+Brazil,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,16.9
+Japan,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,8
+Japan,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,9.8
+Japan,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,10.9
+Germany,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,32
+Germany,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,33.1
+Germany,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,27.3
+Germany,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,23.3
+Latvia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,246.8
+United States,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,49
+United States,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,42.1
+United States,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,38.4
+Netherlands,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,276.5
+Netherlands,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,283
+Netherlands,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,289.9
+Netherlands,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,304.8
+Sweden,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,256.1
+Sweden,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,264.7
+Sweden,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,259.7
+Sweden,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,270
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,260.3
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,286.6
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,298.4
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,284
+Canada,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,78.2
+Canada,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,101.5
+Canada,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,88.9
+Germany,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,312.3
+Germany,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,317.7
+Germany,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,330.7
+Germany,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,323.7
+Lithuania,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,60.9
+Australia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,47.4
+Australia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,46
+Australia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,45.5
+Italy,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,29.6
+Italy,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,33
+Italy,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,36.5
+Italy,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,33.9
+Belgium,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,9.1
+Belgium,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,9.4
+Belgium,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,9.4
+Belgium,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,8.6
+Russia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,245.8
+Switzerland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,211.3
+Switzerland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,240.1
+Switzerland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,236
+Switzerland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,245.9
+Ireland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,39.5
+Ireland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,39.8
+Ireland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,37.9
+Ireland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,36.1
+Portugal,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,19.7
+Portugal,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,20.1
+Portugal,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,16.4
+Portugal,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,20.2
+Indonesia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,8.1
+Canada,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,36.4
+Canada,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,38.1
+Canada,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,35.2
+China (People’s Republic of),Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,11.6
+France,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,53.5
+France,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,52.6
+France,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,47.7
+France,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,52
+Türkiye,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,47.7
+Türkiye,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,49.1
+Türkiye,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,63.9
+Korea,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,24.7
+Korea,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,46.9
+Korea,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,58.7
+Chile,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,14
+Chile,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,13.3
+Estonia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,203.5
+Estonia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,202.7
+Costa Rica,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,11.4
+Czechia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,289.3
+Czechia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,288.5
+Czechia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,293.8
+Colombia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,175.2
+France,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,30.5
+France,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,30.7
+France,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,30
+France,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,35
+Colombia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,12.5
+Russia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,24.5
+Colombia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,35.7
+Slovenia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,25
+Slovenia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,27
+France,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,7.4
+France,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,8.8
+France,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,14.7
+France,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,20.2
+Finland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,23.2
+Finland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,23.3
+Finland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,23.2
+Finland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,23.5
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,40.2
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,52.2
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,79.7
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,73.2
+Portugal,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,14.6
+Portugal,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,13.5
+Portugal,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,12.2
+Portugal,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,9
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,206.9
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,223.4
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,238
+Australia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,312
+Australia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,314.1
+Australia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,323
+Estonia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,30.5
+Estonia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,24.4
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,233.2
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,254.2
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,254.4
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,259.6
+Lithuania,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,48.7
+India,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,5.1
+Russia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,30.1
+Canada,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,30.6
+Canada,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,31.8
+Canada,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,28.5
+Indonesia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,16.3
+Australia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,276.8
+Australia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,274.4
+Australia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,278.6
+Portugal,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,32.4
+Portugal,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,28.6
+Portugal,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,31.4
+Portugal,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,31.7
+Austria,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,43.2
+Austria,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,42.1
+Austria,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,36.7
+Austria,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,34
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,30.3
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,32.9
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,29.3
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,30.2
+Norway,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,18.7
+Norway,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,24.7
+Norway,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,26.1
+Greece,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,8.3
+Greece,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,8.7
+Greece,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,8.5
+Greece,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,9
+Lithuania,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,26.1
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,35.4
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,39.2
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,36.2
+United Kingdom,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,36.8
+Costa Rica,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,45.4
+Ireland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,237.1
+Ireland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,234.9
+Ireland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,285.1
+Ireland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,278.9
+China (People’s Republic of),Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,5.3
+Hungary,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,386.8
+Hungary,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,358.4
+Hungary,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,356.1
+Portugal,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,36.7
+Portugal,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,46.8
+Portugal,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,50.1
+Portugal,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,63.6
+Italy,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,9
+Italy,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,10.7
+Italy,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,11.4
+Italy,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,13.2
+India,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,4.2
+India,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,6.1
+Slovenia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,315.5
+Slovenia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,358.2
+Korea,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,12.8
+Korea,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,13.8
+Korea,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,16.2
+Colombia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,160.6
+Russia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,15.3
+Lithuania,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,18.9
+Sweden,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,21.4
+Sweden,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,21.1
+Sweden,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,19.4
+Sweden,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,19.4
+Russia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,30
+Italy,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,34.2
+Italy,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,34.4
+Italy,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,26.7
+Italy,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,24.5
+Russia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,6.8
+Lithuania,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,311.8
+Australia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,39.5
+Australia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,32.9
+Australia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,33.3
+Japan,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,37.9
+Japan,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,31.5
+Japan,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,32.2
+Netherlands,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,253.4
+Netherlands,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,251.4
+Netherlands,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,271.3
+Netherlands,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,289.6
+Norway,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,27.6
+Norway,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,30.1
+Norway,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,30
+Switzerland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,31.7
+Switzerland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,42.7
+Switzerland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,31
+Switzerland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,36.3
+Chile,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,9.2
+Chile,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,10.2
+Germany,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,11.5
+Germany,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,10.8
+Germany,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,6.9
+Germany,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,8.2
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,21.8
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,24.9
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,23.7
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,25.8
+Greece,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,6.9
+Greece,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,7.7
+Greece,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,3.8
+Greece,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,5.2
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,9.3
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,8.3
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,7.2
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,7.1
+Korea,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,7.6
+Korea,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,22.4
+Korea,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,30.3
+South Africa,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,41.5
+Canada,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,42.2
+Canada,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,45.4
+Canada,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,42.6
+Brazil,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,186.8
+Canada,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,7.7
+Canada,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,6.6
+Canada,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,6.3
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,319
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,320.2
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,338.2
+Germany,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,53.6
+Germany,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,60.5
+Germany,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,82.7
+Germany,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,77.3
+Indonesia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,14.8
+India,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,7.2
+China (People’s Republic of),Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,7.5
+New Zealand,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,37.3
+New Zealand,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,29.6
+New Zealand,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,29.2
+Italy,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,59.4
+Italy,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,58
+Italy,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,45.4
+Italy,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,38.5
+Italy,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,35.3
+Italy,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,39.3
+Italy,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,45.2
+Italy,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,41.5
+Czechia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,247.6
+Czechia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,252.5
+Czechia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,258.9
+Norway,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,40.3
+Norway,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,37.8
+Norway,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,38.9
+Slovak Republic,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,263
+Slovak Republic,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,260.6
+Slovak Republic,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,276.9
+Denmark,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,86.2
+Denmark,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,88.7
+Denmark,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,89.1
+Denmark,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,105
+Netherlands,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,62
+Netherlands,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,59.7
+Netherlands,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,46.1
+Netherlands,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,44.4
+Latvia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,325
+Colombia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,18.7
+Belgium,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,76.4
+Belgium,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,75.3
+Belgium,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,58
+Belgium,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,56.6
+United States,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,36.1
+United States,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,36.2
+United States,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,33.7
+Hungary,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,33.7
+Hungary,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,30.3
+Hungary,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,30.5
+Colombia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,51.3
+Korea,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,17.9
+Korea,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,10.8
+Korea,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,9.5
+Poland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,48.3
+Poland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,40.5
+Poland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,38
+Portugal,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,270.3
+Portugal,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,284.6
+Portugal,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,266.8
+Portugal,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,306.3
+Sweden,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,250.1
+Sweden,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,251.8
+Sweden,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,240.7
+Sweden,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,248.7
+Slovenia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,65.5
+Slovenia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,66.5
+Greece,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,20.2
+Greece,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,26.2
+Greece,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,17.7
+Greece,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,20.2
+Brazil,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,21.3
+Korea,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,20.3
+Korea,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,35.2
+Korea,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,45
+France,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,39.8
+France,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,40.8
+France,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,36
+France,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,36.1
+Belgium,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,43.8
+Belgium,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,43.8
+Belgium,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,35.3
+Belgium,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,36.8
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,69.3
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,82.5
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,82.3
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,89.1
+Norway,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,43.4
+Norway,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,41.3
+Norway,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,42.6
+Poland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,27.7
+Poland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,23.9
+Poland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,27
+Germany,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,38.5
+Germany,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,39.3
+Germany,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,35.5
+Germany,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,30.9
+Mexico,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,150
+Mexico,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,126.2
+Mexico,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,139.9
+Israel,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,33.1
+Israel,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,29.5
+Indonesia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,17.3
+China (People’s Republic of),Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,211.2
+Japan,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,25.2
+Japan,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,24.6
+Japan,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,24.6
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,271.2
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,296.7
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,284
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,280.3
+Latvia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,82.7
+Canada,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,31.6
+Canada,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,32.4
+Canada,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,34.4
+Estonia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,64.1
+Estonia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,48.2
+Mexico,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,26.4
+Mexico,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,27.2
+Mexico,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,35.4
+Spain,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,47.9
+Spain,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,50.9
+Spain,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,61
+Spain,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,67.3
+Austria,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,42.1
+Austria,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,42.6
+Austria,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,36
+Austria,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,37.1
+Poland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,14.6
+Poland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,18.3
+Poland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,21.8
+United States,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,124.8
+United States,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,83.8
+United States,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,98.2
+Türkiye,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,26.5
+Türkiye,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,26
+Türkiye,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,34.7
+Finland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,25.2
+Finland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,25.5
+Finland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,27.6
+Finland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,28.2
+Chile,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,13
+Chile,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,15
+Iceland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,90
+Iceland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,86.2
+Iceland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,96.3
+Portugal,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,24.3
+Portugal,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,21.1
+Portugal,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,24.1
+Portugal,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,23.6
+Germany,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,73.7
+Germany,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,79.8
+Germany,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,81.8
+Germany,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,91.6
+France,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,26.8
+France,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,25.9
+France,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,24.1
+France,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,24.9
+Chile,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,14.4
+Chile,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,12.8
+United States,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,33.1
+United States,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,25
+United States,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,22
+United States,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,7.7
+United States,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,5.7
+United States,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,6.6
+Latvia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,52.1
+Indonesia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,136.2
+Türkiye,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,4.5
+Türkiye,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,4.2
+Türkiye,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,4.3
+Latvia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,20.2
+Costa Rica,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,179.3
+Ireland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,36.5
+Ireland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,35.1
+Ireland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,36.1
+Ireland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,34.9
+Japan,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,12.3
+Japan,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,13.3
+Japan,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,12.9
+Italy,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,24
+Italy,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,26.6
+Italy,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,29.9
+Italy,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,27.5
+Russia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,187.1
+Slovak Republic,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,41
+Slovak Republic,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,42.1
+Slovak Republic,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,42.7
+Slovenia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,264.8
+Slovenia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,296.3
+Indonesia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,12.8
+Netherlands,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,30.4
+Netherlands,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,30.8
+Netherlands,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,31
+Netherlands,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,33.9
+Switzerland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,247.3
+Switzerland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,284.6
+Switzerland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,269.3
+Switzerland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,287
+Brazil,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,14.9
+Colombia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,7.1
+Spain,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,166.3
+Spain,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,179.1
+Spain,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,187
+Spain,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,198.2
+Mexico,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,11.9
+Mexico,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,9.4
+Mexico,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,7.5
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,234.3
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,260.6
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,249.5
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,267.3
+New Zealand,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,20.5
+New Zealand,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,23.4
+New Zealand,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,23.2
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,34.1
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,37.2
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,32.9
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,31.5
+Czechia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,58.4
+Czechia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,67.7
+Czechia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,70.3
+Iceland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,286.5
+Iceland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,290.4
+Iceland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,284.3
+Chile,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,57.4
+Chile,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,52.4
+Poland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,18.4
+Poland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,12.3
+Poland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,12.2
+South Africa,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,168.9
+Lithuania,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,224
+Greece,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,225.1
+Greece,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,234.9
+Greece,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,187.6
+Greece,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,194.8
+Belgium,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,37.4
+Belgium,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,37
+Belgium,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,44
+Belgium,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,45.2
+United States,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,38.9
+United States,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,29.2
+United States,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,25
+Estonia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,25.4
+Estonia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,27.2
+Finland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,22.8
+Finland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,21.8
+Finland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,19.1
+Finland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,20.1
+Canada,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,43.7
+Canada,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,35.9
+Canada,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,37.9
+Türkiye,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,9.1
+Türkiye,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,13.2
+Türkiye,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,20.5
+Spain,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,21
+Spain,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,22.5
+Spain,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,22.9
+Spain,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,24.2
+New Zealand,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,53
+New Zealand,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,44.1
+New Zealand,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,41.5
+Japan,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,49.3
+Japan,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,41.7
+Japan,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,42.1
+Latvia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,17.3
+Czechia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,16.2
+Czechia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,13.8
+Czechia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,14.1
+Belgium,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,329.7
+Belgium,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,347.4
+Belgium,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,356.7
+Belgium,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,364.8
+China (People’s Republic of),Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,36.1
+Portugal,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,192.8
+Portugal,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,191.1
+Portugal,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,190.8
+Portugal,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,198.1
+Israel,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,23.8
+Israel,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,21.2
+Hungary,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,63
+Hungary,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,57.9
+Hungary,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,54.5
+Switzerland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,48.5
+Switzerland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,44.6
+Switzerland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,38.4
+Switzerland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,35.1
+India,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,97.4
+Türkiye,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,22
+Türkiye,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,28.3
+Türkiye,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,39.1
+Spain,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,24.2
+Spain,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,35.9
+Spain,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,57.2
+Spain,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,65.2
+Costa Rica,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,193.5
+Finland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,36.8
+Finland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,33.4
+Finland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,29.9
+Finland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,29.9
+Estonia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,31.5
+Estonia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,35.1
+Costa Rica,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,9.8
+United States,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,406.6
+United States,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,335
+United States,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,347
+Belgium,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,32.7
+Belgium,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,31.9
+Belgium,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,35.5
+Belgium,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,36.7
+France,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,56.5
+France,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,59.3
+France,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,118.3
+France,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,98
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,54.5
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,60.6
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,61.6
+Chile,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,11.9
+Chile,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,14.4
+Italy,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,9.1
+Italy,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,8.1
+Italy,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,6.7
+Italy,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,6.7
+Russia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,21.8
+Korea,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,53.3
+Korea,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,46.4
+Korea,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,45.5
+Indonesia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,133.5
+Costa Rica,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,16.4
+Slovenia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,50.5
+Slovenia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,53.8
+Sweden,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,12.1
+Sweden,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,14.4
+Sweden,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,18.1
+Sweden,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,19.1
+Korea,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,220.5
+Korea,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,262.4
+Korea,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,307.8
+Korea,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,285.7
+Korea,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,309.4
+Korea,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,340
+Italy,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,24.9
+Italy,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,40.5
+Italy,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,58.4
+Italy,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,67.6
+Colombia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,12.9
+Australia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,83.2
+Australia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,84.8
+Australia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,86
+Poland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,24.1
+Poland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,44.3
+Poland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,35.9
+Mexico,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,17
+Mexico,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,14
+Mexico,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,10.5
+Czechia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,38.1
+Czechia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,63
+Czechia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,72.2
+Belgium,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,11.2
+Belgium,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,12.2
+Belgium,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,16.2
+Belgium,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,19.8
+Switzerland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,27.8
+Switzerland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,34
+Switzerland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,25.9
+Switzerland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,29.4
+Greece,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,32.1
+Greece,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,33.4
+Greece,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,29.1
+Greece,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,28.5
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,25.3
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,26.5
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,23.5
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,24.4
+Poland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,23.5
+Poland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,17.6
+Poland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,19.5
+Germany,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,45
+Germany,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,45.5
+Germany,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,45.2
+Germany,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,39.7
+Estonia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,230.1
+Estonia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,242.8
+New Zealand,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,298.8
+New Zealand,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,287.1
+New Zealand,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,274.3
+Ireland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,272.1
+Ireland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,273.6
+Ireland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,355.9
+Ireland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,343.3
+Netherlands,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,91.6
+Netherlands,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,86.7
+Netherlands,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,96.8
+Netherlands,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,99
+Indonesia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,15.9
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,309.3
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,339.2
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,324
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,309.1
+Korea,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,33.1
+Korea,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,27.6
+Korea,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,28.7
+Colombia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,151.5
+China (People’s Republic of),Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,174
+Colombia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,13.4
+Czechia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,32
+Czechia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,29.6
+Czechia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,27.1
+India,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,3.1
+Australia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,28.2
+Australia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,25.6
+Australia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,27
+France,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,10.1
+France,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,9.8
+France,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,7.1
+France,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,6.8
+Brazil,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,59.5
+Denmark,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,296.9
+Denmark,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,285.5
+Denmark,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,312.9
+Denmark,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,328.8
+Greece,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,15.5
+Greece,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,17.5
+Greece,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,13.3
+Greece,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,13.5
+Norway,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,36.4
+Norway,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,36.8
+Norway,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,34.8
+Chile,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,40.1
+Chile,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,34.8
+Ireland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,254.6
+Ireland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,254.3
+Ireland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,317
+Ireland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,307.9
+Germany,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,11.4
+Germany,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,12.7
+Germany,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,16.4
+Germany,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,17.9
+Lithuania,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,7.2
+Ireland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,44.2
+Ireland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,43.1
+Ireland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,44.5
+Ireland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,43.1
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,9.4
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,10.6
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,14.3
+Switzerland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,30.1
+Switzerland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,29.2
+Switzerland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,26.7
+Switzerland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,27.3
+Greece,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,191.5
+Greece,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,203
+Greece,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,162
+Greece,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,163
+Israel,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,96.8
+Israel,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,80.5
+Indonesia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,25.8
+New Zealand,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,47.6
+New Zealand,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,40.5
+New Zealand,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,37.3
+Iceland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,284.5
+Iceland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,273.1
+Iceland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,274.2
+Poland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,50.3
+Poland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,48.9
+Poland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,51.9
+Italy,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,217.8
+Italy,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,231.7
+Italy,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,251.6
+Italy,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,255.2
+Italy,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,64.9
+Italy,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,74.4
+Italy,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,86.3
+Italy,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,91.3
+Hungary,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,15.7
+Hungary,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,16.6
+Hungary,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,18
+Hungary,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,34
+Hungary,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,32.9
+Hungary,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,37.5
+Norway,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,311.5
+Norway,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,341.1
+Norway,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,368.7
+China (People’s Republic of),Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,22.1
+Türkiye,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,8.5
+Türkiye,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,9.1
+Türkiye,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,13.1
+Estonia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,9
+Estonia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,9.4
+Iceland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,27
+Iceland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,26.7
+Iceland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,28.2
+Czechia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,66.1
+Czechia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,52.9
+Czechia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,50.9
+Slovenia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,61.6
+Slovenia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,82.9
+Latvia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,27.8
+Türkiye,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,8
+Türkiye,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,14.8
+Türkiye,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,40.6
+Austria,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,219.6
+Austria,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,238.1
+Austria,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,218.6
+Austria,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,222.7
+Canada,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,327.4
+Canada,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,325.9
+Canada,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,320.8
+Israel,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,288.3
+Israel,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,283.2
+Iceland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,8.3
+Iceland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,6.3
+Iceland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,7.9
+Portugal,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,5.5
+Portugal,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,6
+Portugal,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,6
+Portugal,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,8.3
+Canada,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,55.8
+Canada,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,40.3
+Canada,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,42.5
+Mexico,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,147.3
+Mexico,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,128.4
+Mexico,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,131.5
+United States,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,308.8
+United States,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,274.4
+United States,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,297.4
+Austria,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,12
+Austria,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,14.3
+Austria,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,16.2
+Austria,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,19.5
+Mexico,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,144.5
+Mexico,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,132.9
+Mexico,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,123.9
+Slovenia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,13.7
+Slovenia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,10.5
+Denmark,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,15.3
+Denmark,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,12.6
+Denmark,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,11
+Denmark,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,10.6
+Sweden,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,33
+Sweden,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,33.4
+Sweden,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,31.7
+Sweden,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,32.3
+Portugal,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,40.6
+Portugal,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,36
+Portugal,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,40.6
+Portugal,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,41.8
+Costa Rica,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,5
+United States,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,357.7
+United States,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,300.2
+United States,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,318
+Austria,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,67.2
+Austria,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,70.5
+Austria,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,69.9
+Austria,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,68
+United States,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,44.6
+United States,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,34.1
+United States,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,28.5
+Finland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,4.2
+Finland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,4.3
+Finland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,3.7
+Finland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,4.3
+Belgium,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,234.6
+Belgium,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,245
+Belgium,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,276.2
+Belgium,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,288.9
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,34.7
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,36.5
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,31.8
+United Kingdom,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,30
+Ireland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,29.1
+Ireland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,29.8
+Ireland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,30.6
+Ireland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,31.3
+Mexico,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,29.5
+Mexico,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,19.2
+Mexico,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,23.3
+Mexico,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,29.9
+Mexico,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,33.4
+Mexico,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,27.3
+Ireland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,71.6
+Ireland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,74.9
+Ireland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,93.9
+Ireland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,92.3
+Iceland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,34
+Iceland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,34.9
+Iceland,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,28.9
+Iceland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,81
+Iceland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,102.2
+Iceland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,106.6
+Türkiye,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,91.2
+Türkiye,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,112.8
+Türkiye,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,161.6
+Sweden,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,262
+Sweden,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,277.5
+Sweden,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,286.6
+Sweden,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,296.8
+South Africa,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,31.7
+Latvia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,206.5
+Türkiye,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,137.3
+Türkiye,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,182.3
+Türkiye,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,257.8
+Finland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,78.4
+Finland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,84.7
+Finland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,86.6
+Finland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,89.4
+Germany,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,273.8
+Germany,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,283.3
+Germany,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,282.1
+Germany,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,283.8
+Korea,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,20.4
+Korea,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,38.9
+Korea,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,52.1
+Switzerland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,70.1
+Switzerland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,81.7
+Switzerland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,89.4
+Switzerland,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,83.1
+Israel,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,40.4
+Israel,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,35.9
+United States,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,61.9
+United States,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,49.5
+United States,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,44.2
+South Africa,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,9.5
+Poland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,82
+Poland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,70.6
+Poland,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,60.5
+Denmark,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,31.2
+Denmark,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,39.3
+Denmark,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,72.5
+Denmark,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,91.3
+Hungary,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,94.6
+Hungary,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,79.3
+Hungary,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,76.6
+Finland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,72.9
+Finland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,84.4
+Finland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,96.6
+Finland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,96.6
+Latvia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,58
+Switzerland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,7.2
+Switzerland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,8.3
+Switzerland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,4
+Switzerland,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,3.6
+New Zealand,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,331
+New Zealand,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,309.2
+New Zealand,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,295
+Austria,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,49.8
+Austria,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,71.4
+Austria,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,83.1
+Austria,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,74.7
+South Africa,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,15.6
+Finland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,259.3
+Finland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,264.1
+Finland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,283
+Finland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,290.1
+Israel,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,55.1
+Israel,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,84.3
+Austria,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,11.9
+Austria,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,10.9
+Austria,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,7.8
+Austria,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,5.8
+Brazil,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,12.2
+Spain,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,32
+Spain,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,36.8
+Spain,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,39.7
+Spain,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,43.9
+Japan,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,261.5
+Japan,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,247.3
+Japan,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,260.4
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,67.5
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,49.2
+Slovak Republic,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,47.5
+Denmark,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,38.8
+Denmark,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,41
+Denmark,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,45.2
+Denmark,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,45.9
+Austria,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,34.7
+Austria,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,35
+Austria,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,28.6
+Austria,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,26
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,36.3
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,37.5
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,30.9
+Luxembourg,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,28.4
+Portugal,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,55.3
+Portugal,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,55.5
+Portugal,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,60
+Portugal,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,67.6
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,60.5
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,61.3
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,46.4
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,39.9
+Greece,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,17.4
+Greece,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,19.4
+Greece,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,15.4
+Greece,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,16.3
+Switzerland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,56.6
+Switzerland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,77.3
+Switzerland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,91.3
+Switzerland,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,107.2
+Chile,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,19.9
+Chile,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,17.1
+New Zealand,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,363.1
+New Zealand,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,337.6
+New Zealand,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,320.1
+Poland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,256.1
+Poland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,225.1
+Poland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,229.6
+Slovenia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,35.5
+Slovenia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,37
+Iceland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,30.5
+Iceland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,30.4
+Iceland,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,28.4
+Finland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,21.2
+Finland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,21.1
+Finland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,19.8
+Finland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,19.7
+South Africa,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,67.9
+Chile,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,159.5
+Chile,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,163.3
+Australia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,347.2
+Australia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,360.5
+Australia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,373.9
+Netherlands,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,17.5
+Netherlands,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,17.9
+Netherlands,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,26.1
+Netherlands,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,31.6
+Austria,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,26.1
+Austria,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,27.8
+Austria,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,22.2
+Austria,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,19.6
+Denmark,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,34.7
+Denmark,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,37
+Denmark,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,39.7
+Denmark,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,40.5
+Lithuania,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,31.2
+Spain,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,28.6
+Spain,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,30.6
+Spain,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,28.8
+Spain,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,30.3
+Mexico,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,7
+Mexico,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,6.1
+Mexico,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,6.7
+New Zealand,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,42.2
+New Zealand,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,37.5
+New Zealand,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,33.5
+Russia,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,204.3
+Costa Rica,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,7.3
+Australia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,35.9
+Australia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,32.1
+Australia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,32
+Slovak Republic,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,38.5
+Slovak Republic,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,26.7
+Slovak Republic,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,28.3
+Denmark,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,27.7
+Denmark,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,29.8
+Denmark,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,36.3
+Denmark,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,37.6
+India,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,94
+Estonia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,22.2
+Estonia,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,22.6
+Costa Rica,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,17
+Belgium,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,282.2
+Belgium,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,296.2
+Belgium,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,309.4
+Belgium,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,321.1
+Germany,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,235.3
+Germany,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,248.9
+Germany,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,245.7
+Germany,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,252.5
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,74.9
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,87.2
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,87.9
+United Kingdom,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,95
+Czechia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,13.3
+Czechia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,15.8
+Czechia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,17.8
+Israel,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,303.7
+Israel,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,318
+Australia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,6.9
+Australia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,4.9
+Australia,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,5.5
+Ireland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,28.7
+Ireland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,27
+Ireland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,28.8
+Ireland,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,27.7
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,37.3
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,43.6
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,40.9
+Luxembourg,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,42.1
+Türkiye,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,114.3
+Türkiye,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,144.8
+Türkiye,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,205.1
+France,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,281.5
+France,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,289.5
+France,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,300.4
+France,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,303.5
+Spain,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,26.5
+Spain,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,29.7
+Spain,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,30.4
+Spain,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,33.1
+Indonesia,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,134.4
+Australia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,41.7
+Australia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,38.7
+Australia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,38.4
+Japan,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,214.5
+Japan,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,201.1
+Japan,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,217.1
+Israel,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,5.6
+Israel,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,4.6
+Ireland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,18.7
+Ireland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,19.7
+Ireland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,24.4
+Ireland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,27.4
+Norway,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,74.8
+Norway,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,76.2
+Norway,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,73.1
+Czechia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,45.3
+Czechia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,43
+Czechia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,38.9
+Iceland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,30
+Iceland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,28.2
+Iceland,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,29.8
+Switzerland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,283.4
+Switzerland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,329.1
+Switzerland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,313.2
+Switzerland,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,337.9
+France,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2000,220.3
+France,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,237.2
+France,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,254.9
+France,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,261.9
+Japan,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,32.7
+Japan,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,42.7
+Japan,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,51.5
+Mexico,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,6.7
+Mexico,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,5.4
+Mexico,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,4.9
+Sweden,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,24.6
+Sweden,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,26.2
+Sweden,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,26
+Sweden,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,26.5
+Russia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,45.6
+Finland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2000,241
+Finland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,246
+Finland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,250.1
+Finland,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,256.8
+India,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,25.8
+Canada,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,84.3
+Canada,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,83.2
+Canada,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,79.8
+China (People’s Republic of),Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,52.8
+Hungary,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,59.8
+Hungary,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,49.8
+Hungary,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,51.6
+Colombia,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,15.9
+Poland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,210.3
+Poland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,186
+Poland,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,205.6
+Slovenia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,31.5
+Slovenia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,33.9
+Iceland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,30
+Iceland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,27.8
+Iceland,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,28.9
+Sweden,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,70
+Sweden,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,90.9
+Sweden,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,114.2
+Sweden,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,119
+Mexico,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,7.5
+Mexico,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,6.5
+Mexico,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,7.8
+Brazil,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,76.2
+Austria,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2000,281.9
+Austria,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2002,312.9
+Austria,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,293.5
+Austria,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,295.2
+Norway,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,286
+Norway,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,297.9
+Norway,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,318.3
+Slovenia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,49.5
+Slovenia,Cases per 100 000 persons,Total,Male,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,49.7
+Israel,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,36.3
+Israel,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,30.3
+Spain,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,4
+Spain,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,5.4
+Spain,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,7.7
+Spain,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,11.3
+South Africa,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,11.2
+South Africa,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,11.9
+Czechia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,39.7
+Czechia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,32.1
+Czechia,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,32.5
+France,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2000,83.2
+France,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,91.9
+France,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,99.7
+France,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,89.7
+Norway,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,260.5
+Norway,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,265.7
+Norway,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,277.1
+Brazil,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,16.3
+Netherlands,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,7.3
+Netherlands,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,7.3
+Netherlands,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,5.4
+Netherlands,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,6.8
+Spain,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,7.2
+Spain,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,7.6
+Spain,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,6.3
+Spain,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,7.8
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,12.2
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,13.6
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,18.2
+Luxembourg,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,18.5
+Australia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,76
+Australia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,105
+Australia,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,115.2
+Sweden,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,28.8
+Sweden,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,29.8
+Sweden,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,28.5
+Sweden,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,29.2
+Netherlands,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2000,55.9
+Netherlands,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2002,56.7
+Netherlands,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2008,73.4
+Netherlands,Cases per 100 000 persons,Total,Male,CICDMNPR,Malignant neoplasms of prostate,2012,83.4
+Greece,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2000,55.8
+Greece,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,58
+Greece,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,52.9
+Greece,Cases per 100 000 persons,Total,Male,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,50.9
+Sweden,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2000,9.4
+Sweden,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2002,8.2
+Sweden,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2008,7.4
+Sweden,Cases per 100 000 persons,Total,Female,CICDCRVX,Malignant neoplasms of cervix uteri,2012,7.4
+Canada,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2002,299.9
+Canada,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2008,296.6
+Canada,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,295.7
+Estonia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,285.2
+Estonia,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,321.9
+Indonesia,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,40.3
+Japan,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,167.4
+Japan,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,167.6
+Japan,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,185.7
+Korea,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2002,155.3
+Korea,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2008,234.4
+Korea,Cases per 100 000 persons,Total,Female,CICDTUME,Malignant neoplasms,2012,293.6
+Latvia,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,23.7
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,27.4
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,29.2
+Slovak Republic,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,29.3
+Türkiye,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,5.3
+Türkiye,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,5.2
+Türkiye,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,8.8
+Chile,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2008,203
+Chile,Cases per 100 000 persons,Total,Male,CICDTUME,Malignant neoplasms,2012,195.3
+Slovenia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,16.7
+Slovenia,Cases per 100 000 persons,Total,Female,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,17.5
+Brazil,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,15.8
+Denmark,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,30.5
+Denmark,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,33
+Denmark,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,35.2
+Denmark,Cases per 100 000 persons,Total,Female,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,35.7
+South Africa,Cases per 100 000 persons,Total,Total,CICDTUME,Malignant neoplasms,2012,187.1
+New Zealand,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2002,28.9
+New Zealand,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2008,26.1
+New Zealand,Cases per 100 000 persons,Total,Total,CICDCANC,"Malignant neoplasms of trachea, bronchus, lung",2012,25.9
+Netherlands,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2000,36
+Netherlands,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2002,35.9
+Netherlands,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2008,36.6
+Netherlands,Cases per 100 000 persons,Total,Total,CICDNCRA,"Malignant neoplasms of colon, rectum and anus",2012,40.2
