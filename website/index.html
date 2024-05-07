@@ -12,21 +12,24 @@
     </style>
 </head>
 <body>
-    <p id="chart">
+    <p id="globe">
+        <input type="range", class="slider", id="year">
+        <br/>
+        <svg id="globesvg"></svg>
         <script>
-            var w = 700;
-            var h = 600;
+            var w = 660;
+            var h = 450;
             var projection = d3.geoMercator()
                 .center([0, 0])
-                .translate([w/2, h/2])
+                .translate([w/2, (h/3)*2])
                 .scale(100);
             var path = d3.geoPath()
                 .projection(projection)
-            var svg = d3.select("#chart")
-                .append("svg")
+            var svg = d3.select("#globesvg")
                 .attr("width", w)
                 .attr("height", h)
-                .attr("fill", "grey");
+                .attr("fill", "grey")
+                .attr("style", "background-color:LightSkyBlue")
             d3.json("globe.geo.json").then(function(json) {
                 svg.selectAll("path")
                     .data(json.features)
