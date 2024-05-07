@@ -44,16 +44,18 @@ def save_file():
         f.write(line)
     f.close()
     tf.close()
+    print("file successfully saved")
 #############################
 ## Operation Functions
 #############################
+# remove a field
 def remove_data_column():
     global tf1_name
     global tf2_name
     print("REMOVE DATA COLUMN")
     print("1 - Remove by Index")
     print("2 - Remove by Field Name")
-    method = input("Select an option from above (invalid will return to menu): ").upper()  
+    method = input("Select an option from above (invalid will return to menu):\t").upper()  
     # set up temp file
     tf1 = open(tf1_name, "r")
     reader = csv.reader(tf1)
@@ -76,7 +78,7 @@ def remove_data_column():
             writer.writerow(row)
     elif (method == "2"):
         field_to_remove = input("enter the field to remove (case sensitive):\t")
-        index_to_remove = 0
+        index_to_remove = None
         header = True
         for r in reader:
             row = []
@@ -85,10 +87,69 @@ def remove_data_column():
                     if (r[i] == field_to_remove):
                         index_to_remove = i
                 header = False
+                if (index_to_remove == None):
+                    break
             for i in range(len(r)):
                 if (1 != index_to_remove):
                     row.append(r[i])
             writer.writerow(row)
+        if index_to_remove == None:
+            print("Unable to remove invalid header")
+        else:
+            print("Field successfully removed")
+    # delete tf1 and replace its var with tf2
+    tf1.close()
+    tf2.close()
+    os.remove(tf1_name)
+    tf1_name = tf2_name
+# remove row
+def remove_data_row():
+    global tf1_name
+    global tf2_name
+    print("REMOVE DATA ROW")
+    print("1 - Remove Row at given index")
+    print("2 - Remove All Rows With Given Field Value")
+    print("reminder than row 0 is the headers :)")
+    method = input("Select an option from above (invalid will return to menu):\t").upper()  
+    # set up temp file
+    tf1 = open(tf1_name, "r")
+    reader = csv.reader(tf1)
+    tf = tempfile.NamedTemporaryFile(prefix="DataCleanerWorkingFile_",
+                                            suffix="",
+                                            dir="",
+                                            delete=False)
+    tf2_name = tf.name
+    tf.close()
+    tf2 = open(tf2_name, "w")
+    writer = csv.writer(tf2)
+    if (method == "1"):
+        index_to_remove = int(input("enter row to remove:\t"))
+        i = 0
+        for r in reader:
+            if (i != index_to_remove):
+                writer.writerow(r)
+            i += 1
+        print("row successfully removed")
+    elif (method == "2"):
+        field_index = None
+        method = input("would you like to specify the field by index (1)? or name (2)?:\t")
+        if (method == "1"):
+            field_index = int(input("specify the field input:\t"))
+        elif (method == "2"):
+            field_name = int(input("enter the field name:\t"))
+            headers = reader[0]
+            i = 0
+            for h in headers:
+                if h == field_name:
+                    field_index = i
+                i += 1
+        if field_index != None:
+            value_to_remove = input("enter the value you want to remove:\t")
+            for r in reader:
+                if r[field_index] != value_to_remove:
+                    writer.writerow(r)
+        else:
+            print("unable to remove the row")
     # delete tf1 and replace its var with tf2
     tf1.close()
     tf2.close()
@@ -121,6 +182,8 @@ def main_menu():
             do = False
         elif (action == "1"):
             remove_data_column()
+        elif (action == "2"):
+            remove_data_row()
 #############################
 ## Entry point for program
 #############################
