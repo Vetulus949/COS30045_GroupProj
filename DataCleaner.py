@@ -141,7 +141,7 @@ if __name__ == "__main__":
     if (os.path.isfile(file_path)):
         open_file()
         main_menu()
-        os.remove(tf_name)
+        os.remove(tf1_name)
         print("Closing the program!")
     else:
         print("File does not exist and cannot be opened")
