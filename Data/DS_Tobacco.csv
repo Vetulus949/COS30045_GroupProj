@@ -1,4 +1,4 @@
-Reference area,MEASURE,Measure,Age,Sex,Unit of measure,TIME_PERIOD,OBS_VALUE
+ReferenceArea,MEASURE,Measure,Age,Sex,UnitOfMeasure,TIME_PERIOD,OBS_VALUE
 Germany,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2013,20.9
 Germany,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2017,18.8
 Germany,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2021,14.6

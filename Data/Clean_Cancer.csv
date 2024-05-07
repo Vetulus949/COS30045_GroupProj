@@ -1,4 +1,4 @@
-Reference area,Unit of measure,Age,Sex,CANCER_SITE,Cancer site,TIME_PERIOD,OBS_VALUE
+ReferenceArea,UnitOfMeasure,Age,Sex,CANCER_SITE,CancerSite,TIME_PERIOD,OBS_VALUE
 Slovak Republic,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2002,48
 Slovak Republic,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2008,53.4
 Slovak Republic,Cases per 100 000 persons,Total,Female,CICDMNBR,Malignant neoplasms of female breast,2012,57.5

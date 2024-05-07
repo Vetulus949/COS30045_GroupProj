@@ -30,12 +30,15 @@
                 .attr("height", h)
                 .attr("fill", "grey")
                 .attr("style", "background-color:LightSkyBlue")
-            d3.json("globe.geo.json").then(function(json) {
-                svg.selectAll("path")
-                    .data(json.features)
-                    .enter()
-                    .append("path")
-                    .attr("d", path);
+            d3.csv("Data/DS_Tabacco.csv").then(function(d) {
+                dataset = d
+                d3.json("globe.geo.json").then(function(json) {
+                    svg.selectAll("path")
+                        .data(json.features)
+                        .enter()
+                        .append("path")
+                        .attr("d", path);
+                });
             });
         </script>
     </p>

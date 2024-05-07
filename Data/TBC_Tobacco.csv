@@ -1,4 +1,4 @@
-Reference area,MEASURE,Measure,Age,Sex,Unit of measure,TIME_PERIOD,OBS_VALUE
+ReferenceArea,MEASURE,Measure,Age,Sex,UnitOfMeasure,TIME_PERIOD,OBS_VALUE
 Israel,TBC,Tobacco consumption,15 years or over,Total,Grammes per person,2010,1062.7
 Israel,TBC,Tobacco consumption,15 years or over,Total,Grammes per person,2011,1054.7
 Israel,TBC,Tobacco consumption,15 years or over,Total,Grammes per person,2012,995.5
