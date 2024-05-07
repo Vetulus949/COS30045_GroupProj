@@ -13,34 +13,82 @@
 </head>
 <body>
     <p id="globe">
-        <input type="range", class="slider", id="year">
+        <p id="sliderValue">XXXX</p>
+        <input type="range", class="slider", id="yearSlider">
         <br/>
         <svg id="globesvg"></svg>
         <script>
+            // setup variables
             var w = 660;
             var h = 450;
+            var dataset;
+            var selectedYear;
+            var values = [];
             var projection = d3.geoMercator()
                 .center([0, 0])
                 .translate([w/2, (h/3)*2])
                 .scale(100);
             var path = d3.geoPath()
-                .projection(projection)
+                .projection(projection);
             var svg = d3.select("#globesvg")
                 .attr("width", w)
                 .attr("height", h)
                 .attr("fill", "grey")
-                .attr("style", "background-color:LightSkyBlue")
+                .attr("style", "background-color:LightSkyBlue");
+            // load the csv
             d3.csv("Data/DS_Tobacco.csv").then(function(d) {
-                dataset = d
-                for (var i = 0; i < dataset.length; i++){
-                    console.log(dataset[i].ReferenceArea)
-                }
+                // make dataset easier to handle
+                dataset = d;
+                // set min and max of scale
+                d3.select("#yearSlider")
+                    .attr("max", d3.max(dataset, function(d){return d.TIME_PERIOD}))
+                    .attr("min", d3.min(dataset, function(d){return d.TIME_PERIOD}))
+                    .on("input", function(d)
+                    {
+                        selectedYear = this.value;
+                        d3.select("#sliderValue").text(selectedYear);
+                    })
+                // initialize colour range
+                var colourRange = d3.scaleQuantize()
+                    .domain([0, d3.max(dataset, function(d){return d.OBS_VALUE;}) ])
+                    .range(["rgb(241,238,246)",
+                            "rgb(215,181,216)",
+                            "rgb(223,101,176)",
+                            "rgb(221,28,119)",
+                            "rgb(152,0,67)"]);
+                // load geoJSON
                 d3.json("globe.geo.json").then(function(json) {
+                    // loop through the dataset
+                    for (var i = 0; i < dataset.length; i++){
+                        // get value and referencearea from dataset
+                        dataRef = dataset[i].ReferenceArea
+                        dataValue = parseInt(dataset[i].OBS_VALUE)
+                        // loop through the geoJSON
+                        for (var j = 0; j < json.features.length; j++){
+                            // get reference area from json
+                            jsonRef = json.features[j].properties.name_long
+                            if (dataRef == jsonRef)
+                            {
+                                values[i] = dataValue;
+                                break;
+                            }
+                        }
+                    }
                     svg.selectAll("path")
                         .data(json.features)
                         .enter()
                         .append("path")
-                        .attr("d", path);
+                        .attr("d", path)
+                        .style("fill", function(d,i) {
+                            var value = values[i]
+                            if (value) {
+                                return colourRange(value);
+                            } 
+                            else
+                            {
+                                return "#ccc";
+                            }
+                        });
                 });
             });
         </script>
