@@ -30,8 +30,11 @@
                 .attr("height", h)
                 .attr("fill", "grey")
                 .attr("style", "background-color:LightSkyBlue")
-            d3.csv("Data/DS_Tabacco.csv").then(function(d) {
+            d3.csv("Data/DS_Tobacco.csv").then(function(d) {
                 dataset = d
+                for (var i = 0; i < dataset.length; i++){
+                    console.log(dataset[i].ReferenceArea)
+                }
                 d3.json("globe.geo.json").then(function(json) {
                     svg.selectAll("path")
                         .data(json.features)
