@@ -320,11 +320,11 @@ Luxembourg,SP_DS,Share of population who are daily smokers,15 years or over,Male
 Luxembourg,SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2022,21.2
 Belgium,SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2013,21.6
 Belgium,SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2018,18.9
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2010,49.2
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2015,48.6
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2018,47.9
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2019,48
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2020,47.8
+China,SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2010,49.2
+China,SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2015,48.6
+China,SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2018,47.9
+China,SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2019,48
+China,SP_DS,Share of population who are daily smokers,15 years or over,Male,Percentage of population,2020,47.8
 France,SP_DS,Share of population who are daily smokers,From 15 to 24 years,Female,Percentage of population,2010,26.2
 France,SP_DS,Share of population who are daily smokers,From 15 to 24 years,Female,Percentage of population,2012,24.3
 France,SP_DS,Share of population who are daily smokers,From 15 to 24 years,Female,Percentage of population,2014,31.8
@@ -1900,11 +1900,11 @@ Hungary,TBC,Tobacco consumption,15 years or over,Total,Grammes per person,2018,1
 Hungary,TBC,Tobacco consumption,15 years or over,Total,Grammes per person,2019,1521
 Hungary,TBC,Tobacco consumption,15 years or over,Total,Grammes per person,2020,1521
 Hungary,TBC,Tobacco consumption,15 years or over,Total,Grammes per person,2021,1521
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Female,Percentage of population,2010,2.4
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Female,Percentage of population,2015,2.2
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Female,Percentage of population,2018,2.1
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Female,Percentage of population,2019,2.1
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Female,Percentage of population,2020,2.1
+China,SP_DS,Share of population who are daily smokers,15 years or over,Female,Percentage of population,2010,2.4
+China,SP_DS,Share of population who are daily smokers,15 years or over,Female,Percentage of population,2015,2.2
+China,SP_DS,Share of population who are daily smokers,15 years or over,Female,Percentage of population,2018,2.1
+China,SP_DS,Share of population who are daily smokers,15 years or over,Female,Percentage of population,2019,2.1
+China,SP_DS,Share of population who are daily smokers,15 years or over,Female,Percentage of population,2020,2.1
 Croatia,TBC,Tobacco consumption,Total,Total,Cigarettes per smoker per day,2014,16.4
 Croatia,TBC,Tobacco consumption,Total,Total,Cigarettes per smoker per day,2019,17.4
 Finland,SP_DS,Share of population who are daily smokers,From 15 to 24 years,Male,Percentage of population,2010,17.5
@@ -1941,11 +1941,11 @@ Spain,SP_DS,Share of population who are daily smokers,15 years or over,Total,Per
 Spain,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2014,23
 Spain,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2017,22.1
 Spain,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2020,19.8
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2010,26.2
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2015,25.8
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2018,25.4
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2019,25.4
-China (People’s Republic of),SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2020,25.3
+China,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2010,26.2
+China,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2015,25.8
+China,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2018,25.4
+China,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2019,25.4
+China,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2020,25.3
 United Kingdom,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2010,20.3
 United Kingdom,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2011,19.8
 United Kingdom,SP_DS,Share of population who are daily smokers,15 years or over,Total,Percentage of population,2012,20.4

@@ -44,7 +44,7 @@ Netherlands,Cases per 100 000 persons,Total,2008,35
 Netherlands,Cases per 100 000 persons,Total,2012,37.2
 India,Cases per 100 000 persons,Male,2012,11
 Brazil,Cases per 100 000 persons,Total,2012,16.3
-China (People’s Republic of),Cases per 100 000 persons,Female,2012,20.4
+China,Cases per 100 000 persons,Female,2012,20.4
 Finland,Cases per 100 000 persons,Female,2000,8.9
 Finland,Cases per 100 000 persons,Female,2002,10.1
 Finland,Cases per 100 000 persons,Female,2008,10.8
@@ -203,7 +203,7 @@ Finland,Cases per 100 000 persons,Total,2012,20.1
 Canada,Cases per 100 000 persons,Total,2002,43.7
 Canada,Cases per 100 000 persons,Total,2008,35.9
 Canada,Cases per 100 000 persons,Total,2012,37.9
-China (People’s Republic of),Cases per 100 000 persons,Total,2012,36.1
+China,Cases per 100 000 persons,Total,2012,36.1
 Israel,Cases per 100 000 persons,Total,2008,23.8
 Israel,Cases per 100 000 persons,Total,2012,21.2
 Switzerland,Cases per 100 000 persons,Male,2000,48.5
@@ -337,7 +337,7 @@ Iceland,Cases per 100 000 persons,Total,2012,29.8
 Mexico,Cases per 100 000 persons,Female,2002,6.7
 Mexico,Cases per 100 000 persons,Female,2008,5.4
 Mexico,Cases per 100 000 persons,Female,2012,4.9
-China (People’s Republic of),Cases per 100 000 persons,Male,2012,52.8
+China,Cases per 100 000 persons,Male,2012,52.8
 Hungary,Cases per 100 000 persons,Total,2002,59.8
 Hungary,Cases per 100 000 persons,Total,2008,49.8
 Hungary,Cases per 100 000 persons,Total,2012,51.6
