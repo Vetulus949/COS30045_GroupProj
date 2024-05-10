@@ -24,7 +24,7 @@
             var dataset;
             var selectedYear;
             var colourRange;
-            var values = [,];
+            var values = [];
             var svg = d3.select("#globesvg")
                     .attr("width", w)
                     .attr("height", h)
@@ -45,112 +45,111 @@
                     dataset = d;
                     return dataset;
                 });
+                // returns promise, use .then to access
                 return result;
             };
             // DateChanged function
             // called when the date is changed
-            async function DateChanged() {
-                values = [,]
-                console.log("start DateChange");
-                GetData().then(function(data) {
+            function DateChanged() {
+                console.log("changed date");
+                GetData().then(function(data){
                     d3.json("globe.geo.json").then(function(json) {
-                        // loop through the dataset
-                        for (var i = 0; i < dataset.length; i++){
-                            // get value and referencearea from dataset
-                            dataRef = dataset[i].ReferenceArea;
-                            dataDate = parseInt(dataset[i].TIME_PERIOD);
-                            dataValue = parseInt(dataset[i].OBS_VALUE);
-                            // check that date is the selected date
+                        // clear values
+                        values = [];
+                        // for data elements
+                        for (var i = 0; i < data.length; i++) {
+                            // get needed values from data
+                            dataRef = data[i].ReferenceArea;
+                            dataDate = parseInt(data[i].TIME_PERIOD);
+                            dataVal = parseInt(data[i].OBS_VALUE);
+                            // check if a valid year is entered
                             if (dataDate <= selectedYear) {
-                                // loop through the geoJSON
-                                for (var j = 0; j < json.features.length; j++){
+                                // loop through geoJSON
+                                for (var j = 0; j < json.features.length; j++) {
                                     // get reference area from json
                                     jsonRef = json.features[j].properties.name_long;
-                                    if (values[j, 1] == undefined){
-                                        if (dataRef == jsonRef) {
-                                            values[j,0] = dataValue;
-                                            values[j,1] = dataDate;
-                                            break;
+                                    if (dataRef == jsonRef)
+                                    {
+                                        if (values[j] == undefined)
+                                        {
+                                            values[j] = [dataVal, dataDate];
+                                        }
+                                        else
+                                        {
+                                            if (dataDate > values[j][1])
+                                            {
+                                                values[j] = [dataVal, dataDate];
+                                            }
                                         }
                                     }
-                                    else
-                                    {
-                                        if (dataRef == jsonRef && (
-                                            dataDate > values[j,1]
-                                            )) {
-                                            values[j,0] = dataValue;
-                                            values[j,1] = dataDate;
-                                            break;
-                                        }
-                                    };
-                                };
-                            };
-                        };
-                        update(json)
+                                }
+                            }
+                        }
+                        // apply json
+                        update(json);
                     });
-                });
+                })
             };
             // Load() function
             // run once on initial start
-            async function Load() {
+            function Load() {
                 console.log("start Load");
                 GetData().then(function(data){
+                    var dataMaxTime = d3.max(data, function(d){return d.TIME_PERIOD});
+                    var dataMinTime = d3.min(data, function(d){return d.TIME_PERIOD});
+                    var dataMaxVal = d3.max(data, function(d){return parseInt(d.OBS_VALUE)});
                     // set min and max of scale
                     d3.select("#yearSlider")
-                        .attr("max", d3.max(data, function(d){return d.TIME_PERIOD}))
-                        .attr("min", d3.min(data, function(d){return d.TIME_PERIOD}))
+                        .attr("max", dataMaxTime)
+                        .attr("min", dataMinTime)
                         .on("input", function(d)
                         {
                             selectedYear = this.value;
                             d3.select("#sliderValue").text(selectedYear);
-                            DateChanged()
+                            DateChanged();
                         });
                     // set initial value of selected year
                     selectedYear = d3.select("#yearSlider").attr("min");
                     d3.select("#sliderValue").text(selectedYear);
                     // initialize colour range
                     colourRange = d3.scaleQuantize()
-                        .domain([0, d3.max(dataset, function(dataset){return dataset.OBS_VALUE;}) ])
-                        .range(["rgb(241,238,246)",
-                            "rgb(215,181,216)",
-                            "rgb(223,101,176)",
-                            "rgb(221,28,119)",
-                            "rgb(152,0,67)"]);
-                    // load geoJSON
+                        .domain([0, dataMaxVal])
+                        .range(["#8856a7","#9ebcda","#e0ecf4"]);
+                    // load json
                     d3.json("globe.geo.json").then(function(json) {
-                        // loop through the dataset
-                        for (var i = 0; i < dataset.length; i++){
-                            // get value and referencearea from dataset
-                            dataRef = dataset[i].ReferenceArea
-                            dataDate = parseInt(dataset[i].TIME_PERIOD)
-                            dataValue = parseInt(dataset[i].OBS_VALUE)
-                            // check that date is the selected date
+                        // clear values
+                        values = [];
+                        // for data elements
+                        for (var i = 0; i < data.length; i++) {
+                            // get needed values from data
+                            dataRef = data[i].ReferenceArea;
+                            dataDate = parseInt(data[i].TIME_PERIOD);
+                            dataVal = parseInt(data[i].OBS_VALUE);
+                            // check if a valid year is entered
                             if (dataDate <= selectedYear) {
-                                // loop through the geoJSON
-                                for (var j = 0; j < json.features.length; j++){
+                                // loop through geoJSON
+                                for (var j = 0; j < json.features.length; j++) {
                                     // get reference area from json
                                     jsonRef = json.features[j].properties.name_long;
-                                    if (values[j, 1] == undefined){
-                                        if (dataRef == jsonRef) {
-                                            values[j,0] = dataValue;
-                                            values[j,1] = dataDate;
-                                            break;
+                                    if (dataRef == jsonRef)
+                                    {
+                                        if (values[j] == undefined)
+                                        {
+                                            values[j] = [dataVal, dataDate];
+                                        }
+                                        else
+                                        {
+                                            if (dataDate > values[j][1])
+                                            {
+                                                values[j] = [dataVal, dataDate];
+                                            }
                                         }
                                     }
-                                    else
-                                    {
-                                        if (dataRef == jsonRef && (
-                                            dataDate > values[j,1]
-                                            )) {
-                                            values[j,0] = dataValue;
-                                            values[j,1] = dataDate;
-                                            break;
-                                        }
-                                    };
-                                };
-                            };
+                                }
+                            }
                         }
-                    update(json)
+                        // apply json
+                        update(json);
                     });
                 })
             }
@@ -163,25 +162,31 @@
                         return enter.append("path")
                             .attr("d", path)
                             .style("fill", function(d,i) {
-                                var value = values[i, 0]
-                                if (value) {
-                                    return colourRange(value);
-                                } 
-                                else
+                                if (values[i])
                                 {
-                                    return "#ccc";
+                                    var value = values[i][0]
+                                    if (value) {
+                                        return colourRange(value);
+                                    } 
+                                    else
+                                    {
+                                        return "#ccc";
+                                    }
                                 }
                             });
                         },
                         function(update) {
                             return update.style("fill", function(d, i) {
-                                var value = values[i, 0]
-                                if (value) {
-                                    return colourRange(value);
-                                }
-                                else
+                                if (values[i])
                                 {
-                                    return "#ccc"
+                                    var value = values[i][0]
+                                    if (value) {
+                                        return colourRange(value);
+                                    } 
+                                    else
+                                    {
+                                        return "#ccc";
+                                    }
                                 }
                             })
                         }
