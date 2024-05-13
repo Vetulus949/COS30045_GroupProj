@@ -117,8 +117,36 @@
                     colourRange = d3.scaleSequential()
                         .domain([0, dataMaxVal])
                         .interpolator(d3.interpolateReds);
-                        //.range(["#fee8c8","#fdbb84","#e34a33"]); // for quantize scale
-                        //.range(["#fee8c8","#e34a33"]); //works better for linear scale
+                    svg.append('rect')
+                        .attr('x', 50)
+                        .attr('y', h - 40)
+                        .attr('width', 20)
+                        .attr('height', 20)
+                        .style('fill', colourRange(0));
+                    svg.append('rect')
+                        .attr('x', 70)
+                        .attr('y', h - 40)
+                        .attr('width', 20)
+                        .attr('height', 20)
+                        .style('fill', colourRange(dataMaxVal / 4));
+                    svg.append('rect')
+                        .attr('x', 90)
+                        .attr('y', h - 40)
+                        .attr('width', 20)
+                        .attr('height', 20)
+                        .style('fill', colourRange(dataMaxVal / 4 * 2));
+                    svg.append('rect')
+                        .attr('x', 110)
+                        .attr('y', h - 40)
+                        .attr('width', 20)
+                        .attr('height', 20)
+                        .style('fill', colourRange(dataMaxVal / 4 * 3));
+                    svg.append('rect')
+                        .attr('x', 130)
+                        .attr('y', h - 40)
+                        .attr('width', 20)
+                        .attr('height', 20)
+                        .style('fill', colourRange(dataMaxVal));
                     // load json
                     d3.json("globe.geo.json").then(function(json) {
                         // clear values
