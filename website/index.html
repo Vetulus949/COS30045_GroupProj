@@ -19,8 +19,8 @@
         <svg id="globesvg"></svg>
         <script>
             // setup variables
-            var w = 660;
-            var h = 450;
+            var w = 990;
+            var h = 675;
             var dataset;
             var selectedYear;
             var colourRange;
@@ -33,7 +33,7 @@
             var projection = d3.geoMercator()
                 .center([0, 0])
                 .translate([w/2, (h/3)*2])
-                .scale(100);
+                .scale(150);
             var path = d3.geoPath()
                 .projection(projection);
             // #########
@@ -112,9 +112,11 @@
                     selectedYear = d3.select("#yearSlider").attr("min");
                     d3.select("#sliderValue").text(selectedYear);
                     // initialize colour range
-                    colourRange = d3.scaleQuantize()
+                    //colourRange = d3.scaleQuantize()
+                    colourRange = d3.scaleLinear()
                         .domain([0, dataMaxVal])
-                        .range(["#8856a7","#9ebcda","#e0ecf4"]);
+                        // .range(["#fee8c8","#fdbb84","#e34a33"]); // for quantize scale
+                        .range(["#fee8c8","#e34a33"]); //works better for linear scale
                     // load json
                     d3.json("globe.geo.json").then(function(json) {
                         // clear values
@@ -135,13 +137,13 @@
                                     {
                                         if (values[j] == undefined)
                                         {
-                                            values[j] = [dataVal, dataDate];
+                                            values[j] = [dataVal, dataDate, dataRef];
                                         }
                                         else
                                         {
                                             if (dataDate > values[j][1])
                                             {
-                                                values[j] = [dataVal, dataDate];
+                                                values[j] = [dataVal, dataDate, dataRef];
                                             }
                                         }
                                     }
@@ -152,6 +154,12 @@
                         update(json);
                     });
                 })
+            }
+            // country clicked function
+            // will pas the index and reference of selected countries to another more easier
+            //      workable variable
+            function countryClicked(countryRef) {
+                console.log(countryRef);
             }
             // update function
             // pass in geoJSON, must be called inside of d3.json
@@ -164,7 +172,10 @@
                             .style("fill", function(d,i) {
                                 if (values[i])
                                 {
+                                    index = i
                                     var value = values[i][0]
+                                    var reference = values[i][2]
+                                    d3.select(this).attr("id", function(){return reference;});
                                     if (value) {
                                         return colourRange(value);
                                     } 
@@ -173,13 +184,18 @@
                                         return "#ccc";
                                     }
                                 }
-                            });
+                            })
+                            .on("click", function() {
+                                countryClicked(d3.select(this).attr("id"));
+                            })
                         },
                         function(update) {
                             return update.style("fill", function(d, i) {
                                 if (values[i])
                                 {
                                     var value = values[i][0]
+                                    var reference = values[i][2]
+                                    d3.select(this).attr("id", function(){return reference;});
                                     if (value) {
                                         return colourRange(value);
                                     } 
@@ -188,6 +204,9 @@
                                         return "#ccc";
                                     }
                                 }
+                            })
+                            .on("click", function() {
+                                countryClicked(d3.select(this).attr("id"));
                             })
                         }
                     ) 
