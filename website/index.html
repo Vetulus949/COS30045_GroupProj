@@ -159,34 +159,40 @@
             function makeKey(dataMaxVal) {
                 svg.append('rect')
                         .attr('x', 50)
-                        .attr('y', h - 40)
+                        .attr('y', h - 60)
                         .attr('width', 20)
                         .attr('height', 20)
                         .style('fill', colourRange(0));
                     svg.append('rect')
                         .attr('x', 70)
-                        .attr('y', h - 40)
+                        .attr('y', h - 60)
                         .attr('width', 20)
                         .attr('height', 20)
                         .style('fill', colourRange(dataMaxVal / 4));
                     svg.append('rect')
                         .attr('x', 90)
-                        .attr('y', h - 40)
+                        .attr('y', h - 60)
                         .attr('width', 20)
                         .attr('height', 20)
                         .style('fill', colourRange(dataMaxVal / 4 * 2));
                     svg.append('rect')
                         .attr('x', 110)
-                        .attr('y', h - 40)
+                        .attr('y', h - 60)
                         .attr('width', 20)
                         .attr('height', 20)
                         .style('fill', colourRange(dataMaxVal / 4 * 3));
                     svg.append('rect')
                         .attr('x', 130)
-                        .attr('y', h - 40)
+                        .attr('y', h - 60)
                         .attr('width', 20)
                         .attr('height', 20)
                         .style('fill', colourRange(dataMaxVal));
+                    svg.append('rect')
+                        .attr('x', 50)
+                        .attr('y', h - 40)
+                        .attr('width', 20)
+                        .attr('height', 20)
+                        .style('fill', 'gray')
             }
             // country clicked function
             // will pas the index and reference of selected countries to another more easier
