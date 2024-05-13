@@ -7,6 +7,7 @@
     <meta name="author"         content=""/>
     <title>Assignment</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <style>
 
     </style>
@@ -113,10 +114,11 @@
                     d3.select("#sliderValue").text(selectedYear);
                     // initialize colour range
                     //colourRange = d3.scaleQuantize()
-                    colourRange = d3.scaleLinear()
+                    colourRange = d3.scaleSequential()
                         .domain([0, dataMaxVal])
-                        // .range(["#fee8c8","#fdbb84","#e34a33"]); // for quantize scale
-                        .range(["#fee8c8","#e34a33"]); //works better for linear scale
+                        .interpolator(d3.interpolateReds);
+                        //.range(["#fee8c8","#fdbb84","#e34a33"]); // for quantize scale
+                        //.range(["#fee8c8","#e34a33"]); //works better for linear scale
                     // load json
                     d3.json("globe.geo.json").then(function(json) {
                         // clear values
