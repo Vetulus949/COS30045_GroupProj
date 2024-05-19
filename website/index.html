@@ -10,6 +10,11 @@
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script stc="https://d3js.org/d3-selection.v1.min.js"></script>
     <style>
+        .line {
+            fill: none;
+            stroke: gray;
+            stroke-width: 1px;
+        }
     </style>
 </head>
 <body>
@@ -37,24 +42,31 @@
             var chloroH = 700;
             var lineW = 990;
             var lineH = 500;
+            var linePadding = 50;
             var dataset;
             var cancerDataset;
             var selectedYear;
             var colourRange;
-            var nodataColour = "#ccc";
+            var nodataColour = "rgb(255, 255, 255)";
             var values = [];
             var selectedCountries = [];
             var globeSvg = d3.select("#globesvg")
-                    .attr("width", chloroW)
-                    .attr("height", chloroH)
-                    .attr("fill", "grey")
-                    .attr("style", "background-color:LightSkyBlue");;
+                .attr("width", chloroW)
+                .attr("height", chloroH)
+                .attr("fill", "rgb(200, 200, 200)")
+                .attr("style", "background-color:LightSkyBlue");
             var projection = d3.geoMercator()
                 .center([0, 0])
                 .translate([chloroW/2, (chloroH/3)*2 - 25])
                 .scale(150);
             var path = d3.geoPath()
                 .projection(projection);
+            var lineTimeScale;
+            var lineDSScale;
+            var lineCancerScale;
+            var cancerSvg = d3.select("#cancersvg")
+                .attr("width", lineW)
+                .attr("height", lineH)
             // #########
             // FUNCTIONS
             // #########
@@ -123,14 +135,16 @@
             function Load() {
                 console.log("start Load");
                 GetDSData().then(function(data){
-                    var dataMaxTime = d3.max(data, function(d){return d.TIME_PERIOD});
-                    var dataMinTime = d3.min(data, function(d){return d.TIME_PERIOD});
-                    var dataMaxVal = d3.max(data, function(d){return parseInt(d.OBS_VALUE)});
+                    var dataMaxTime = d3.max(data, function(d) { return d.TIME_PERIOD });
+                    var dataMinTime = d3.min(data, function(d) { return d.TIME_PERIOD });
+                    var dataMaxVal = d3.max(data, function(d) { return parseInt(d.OBS_VALUE) });
                     // setup clear selection button
                     d3.select("#ClearSelection")
                         .on("click", function() {
                             selectedCountries = []
                             d3.selectAll("#selected")
+                                .remove()
+                            d3.selectAll("#dsLine")
                                 .remove()
                         });
                     // set min and max of scale
@@ -190,6 +204,7 @@
                     });
                 })
             }
+            // make the key for the chloropleth
             function makeKey(dataMaxVal) {
                 globeSvg.append('rect')
                     .attr('x', 30)
@@ -406,7 +421,54 @@
                 // load csv files
                 GetDSData().then(function(DSData) {
                     GetCancerData().then(function(CancerData) {
-                        
+                        // get scales
+                        lineTimeScale = d3.scaleLinear()
+                            .domain([2010, 2022])
+                            .range([linePadding, lineW - linePadding]);
+                        lineDSScale = d3.scaleLinear()
+                            .domain([d3.max(DSData, function(data) { return parseInt(data.OBS_VALUE) } ), 0])
+                            .range([linePadding, lineH - linePadding]);
+                        lineCancerScale = d3.scaleLinear()
+                            .domain([d3.max(CancerData, function(data) { return parseInt(data.OBS_VALUE) } ), 0])
+                            .range([linePadding, lineH - linePadding]);
+                        // axis
+                        axisLeft = d3.axisLeft()
+                            .scale(lineDSScale);
+                        axisRight = d3.axisRight()
+                            .scale(lineCancerScale);
+                        axisBottom = d3.axisBottom()
+                            .scale(lineTimeScale);
+                        cancerSvg.append("g")
+                            .attr("transform", "translate(" + linePadding + ",0)")
+                            .call(axisLeft);
+                        cancerSvg.append("g")
+                            .attr("transform", "translate(" + (lineW - linePadding) + ",0)")
+                            .call(axisRight);
+                        cancerSvg.append("g")
+                            .attr("transform", "translate( 0, " + (lineH - linePadding) + ")")
+                            .call(axisBottom);
+                        // put data into a nice array
+                        DSArray = []
+                        DSData.forEach(element => {
+                            if (selectedCountries.includes(element.ReferenceArea)) {
+                                DSArray.push([element.TIME_PERIOD, element.OBS_VALUE])
+                            }
+                        });
+                        DSArray.sort(function(a, b) {if (a[0] === b[0]) {
+                                return 0;
+                            }
+                            else {
+                                return (a[0] < b[0]) ? -1 : 1;
+                            }});
+                        // line data time
+                        line = d3.line()
+                            .x(function(d) {return lineTimeScale(d[0]); })
+                            .y(function(d) {return lineDSScale(d[1]); })
+                        cancerSvg.append("path")
+                            .datum(DSArray)
+                            .attr("class", "line")
+                            .attr("id", "dsLine")
+                            .attr("d", line);
                     });
                 });
             }
