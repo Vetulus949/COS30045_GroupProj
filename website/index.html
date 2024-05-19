@@ -33,21 +33,23 @@
         </div>
         <script>
             // setup variables
-            var w = 990;
-            var h = 700;
+            var chloroW = 990;
+            var chloroH = 700;
             var dataset;
+            var cancerDataset;
             var selectedYear;
             var colourRange;
+            var nodataColour = "#ccc";
             var values = [];
             var selectedCountries = [];
             var svg = d3.select("#globesvg")
-                    .attr("width", w)
-                    .attr("height", h)
+                    .attr("width", chloroW)
+                    .attr("height", chloroH)
                     .attr("fill", "grey")
                     .attr("style", "background-color:LightSkyBlue");;
             var projection = d3.geoMercator()
                 .center([0, 0])
-                .translate([w/2, (h/3)*2 - 25])
+                .translate([chloroW/2, (chloroH/3)*2 - 25])
                 .scale(150);
             var path = d3.geoPath()
                 .projection(projection);
@@ -56,7 +58,7 @@
             // #########
             // gets the data and returns in the form of a promise
             // returning the promise means .then can be used
-            function GetData() {
+            function GetDSData() {
                 result = d3.csv("Data/DS_Tobacco.csv").then(function(d) {
                     dataset = d;
                     return dataset;
@@ -64,11 +66,19 @@
                 // returns promise, use .then to access
                 return result;
             };
+            function GetCancerData () {
+                result = d3.csv("Data/Lung_Cancer.csv").then(function(d) {
+                    cancerDataset = d;
+                    return cancerDataset;
+                })
+                // returns promise, use .then to access
+                return result
+            }
             // DateChanged function
             // called when the date is changed
             function DateChanged() {
                 console.log("changed date");
-                GetData().then(function(data){
+                GetDSData().then(function(data){
                     d3.json("globe.geo.json").then(function(json) {
                         // clear values
                         values = [];
@@ -110,7 +120,7 @@
             // run once on initial start
             function Load() {
                 console.log("start Load");
-                GetData().then(function(data){
+                GetDSData().then(function(data){
                     var dataMaxTime = d3.max(data, function(d){return d.TIME_PERIOD});
                     var dataMinTime = d3.min(data, function(d){return d.TIME_PERIOD});
                     var dataMaxVal = d3.max(data, function(d){return parseInt(d.OBS_VALUE)});
@@ -181,65 +191,65 @@
             function makeKey(dataMaxVal) {
                 svg.append('rect')
                     .attr('x', 30)
-                    .attr('y', h - 80)
+                    .attr('y', chloroH - 80)
                     .attr('width', 300)
                     .attr('height', 75)
                     .style('fill', 'silver')
                 svg.append('text')
                     .text('percentage of population who smoke daily')
                     .attr('x', 40)
-                    .attr('y', h - 60)
+                    .attr('y', chloroH - 60)
                     .style('fill', 'black')
                 svg.append('text')
                     .text('0 %')
                     .attr('x', 45)
-                    .attr('y', h - 40)
+                    .attr('y', chloroH - 40)
                     .style('fill', 'black')
                 svg.append('rect')
                     .attr('x', 75)
-                    .attr('y', h - 55)
+                    .attr('y', chloroH - 55)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', colourRange(0));
                 svg.append('rect')
                     .attr('x', 95)
-                    .attr('y', h - 55)
+                    .attr('y', chloroH - 55)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', colourRange(dataMaxVal / 4));
                 svg.append('rect')
                     .attr('x', 115)
-                    .attr('y', h - 55)
+                    .attr('y', chloroH - 55)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', colourRange(dataMaxVal / 4 * 2));
                 svg.append('rect')
                     .attr('x', 135)
-                    .attr('y', h - 55)
+                    .attr('y', chloroH - 55)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', colourRange(dataMaxVal / 4 * 3));
                 svg.append('rect')
                     .attr('x', 155)
-                    .attr('y', h - 55)
+                    .attr('y', chloroH - 55)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', colourRange(dataMaxVal));
                 svg.append('text')
                     .text(dataMaxVal + ' %')
                     .attr('x', 180)
-                    .attr('y', h - 40)
+                    .attr('y', chloroH - 40)
                     .style('fill', 'black')
                 svg.append('rect')
                     .attr('x', 75)
-                    .attr('y', h - 35)
+                    .attr('y', chloroH - 35)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', 'gray')
                 svg.append('text')
                     .text('no data avaliable')
                     .attr('x', 100)
-                    .attr('y', h - 20)
+                    .attr('y', chloroH - 20)
                     .style('fill', 'black')
             }
             // country clicked function
@@ -258,9 +268,10 @@
                             .text(item)
                             .attr("id", "selected");
                     });
+                    updateCancer();
                 }
             }
-            // update function
+            // updateGlobe function
             // pass in geoJSON, must be called inside of d3.json
             function updateGlobe(json) {
                 svg.selectAll("path")
@@ -281,7 +292,7 @@
                                     } 
                                     else
                                     {
-                                        return "#ccc";
+                                        return nodataColour;
                                     }
                                 }
                             })
@@ -339,7 +350,7 @@
                                     } 
                                     else
                                     {
-                                        return "#ccc";
+                                        return nodataColour;
                                     }
                                 }
                             })
@@ -386,6 +397,17 @@
                         }
                     ) 
                 };
+            //
+            //
+            function updateCancer() {
+                console.log("Showing country cancer rates")
+                // load csv files
+                GetDSData().then(function(DSData) {
+                    GetCancerData().then(function(CancerData) {
+                        
+                    });
+                });
+            }
             // call load function
             Load()
         </script>
