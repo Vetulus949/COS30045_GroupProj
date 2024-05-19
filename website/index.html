@@ -14,6 +14,7 @@
 </head>
 <body>
     <p id="globe">
+        <!-- chloropleth stuff -->
         <div id="choroplethTools">
             <p id="sliderValue" style="display: inline;">XXXX</p>
             <input type="range", class="slider" id="yearSlider" style="display: inline;">
@@ -25,6 +26,10 @@
                 <li style="list-style-type: none;"><button id="ClearSelection">Clear Selection</button></li>
                 <li style="list-style-type: none;"><br/></li>
             </ul>
+        </div>
+        <!-- line stuff -->
+        <div id="line">
+            <svg id="cancersvg" style="display: inline-block;"></svg>
         </div>
         <script>
             // setup variables
@@ -241,18 +246,19 @@
             // will pas the index and reference of selected countries to another more easier
             //      workable variable
             function countryClicked(countryRef) {
-                if (! selectedCountries.includes(countryRef)) {
+                if (! selectedCountries.includes(countryRef)
+                    && countryRef != "" && countryRef != null) {
                     console.log("country clicked")
                     selectedCountries.push(countryRef)
+                    d3.selectAll("#selected")
+                        .remove();
+                    selectedCountries.forEach(function(item) {
+                        d3.select("#selectedCountries")
+                            .append("li")
+                            .text(item)
+                            .attr("id", "selected");
+                    });
                 }
-                d3.selectAll("#selected")
-                    .remove()
-                selectedCountries.forEach(function(item) {
-                    d3.select("#selectedCountries")
-                        .append("li")
-                        .text(item)
-                        .attr("id", "selected")
-                });
             }
             // update function
             // pass in geoJSON, must be called inside of d3.json
