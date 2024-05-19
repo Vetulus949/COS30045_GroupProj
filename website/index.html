@@ -35,6 +35,8 @@
             // setup variables
             var chloroW = 990;
             var chloroH = 700;
+            var lineW = 990;
+            var lineH = 500;
             var dataset;
             var cancerDataset;
             var selectedYear;
@@ -42,7 +44,7 @@
             var nodataColour = "#ccc";
             var values = [];
             var selectedCountries = [];
-            var svg = d3.select("#globesvg")
+            var globeSvg = d3.select("#globesvg")
                     .attr("width", chloroW)
                     .attr("height", chloroH)
                     .attr("fill", "grey")
@@ -189,64 +191,64 @@
                 })
             }
             function makeKey(dataMaxVal) {
-                svg.append('rect')
+                globeSvg.append('rect')
                     .attr('x', 30)
                     .attr('y', chloroH - 80)
                     .attr('width', 300)
                     .attr('height', 75)
                     .style('fill', 'silver')
-                svg.append('text')
+                globeSvg.append('text')
                     .text('percentage of population who smoke daily')
                     .attr('x', 40)
                     .attr('y', chloroH - 60)
                     .style('fill', 'black')
-                svg.append('text')
+                globeSvg.append('text')
                     .text('0 %')
                     .attr('x', 45)
                     .attr('y', chloroH - 40)
                     .style('fill', 'black')
-                svg.append('rect')
+                globeSvg.append('rect')
                     .attr('x', 75)
                     .attr('y', chloroH - 55)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', colourRange(0));
-                svg.append('rect')
+                globeSvg.append('rect')
                     .attr('x', 95)
                     .attr('y', chloroH - 55)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', colourRange(dataMaxVal / 4));
-                svg.append('rect')
+                globeSvg.append('rect')
                     .attr('x', 115)
                     .attr('y', chloroH - 55)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', colourRange(dataMaxVal / 4 * 2));
-                svg.append('rect')
+                globeSvg.append('rect')
                     .attr('x', 135)
                     .attr('y', chloroH - 55)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', colourRange(dataMaxVal / 4 * 3));
-                svg.append('rect')
+                globeSvg.append('rect')
                     .attr('x', 155)
                     .attr('y', chloroH - 55)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', colourRange(dataMaxVal));
-                svg.append('text')
+                globeSvg.append('text')
                     .text(dataMaxVal + ' %')
                     .attr('x', 180)
                     .attr('y', chloroH - 40)
                     .style('fill', 'black')
-                svg.append('rect')
+                globeSvg.append('rect')
                     .attr('x', 75)
                     .attr('y', chloroH - 35)
                     .attr('width', 20)
                     .attr('height', 20)
                     .style('fill', 'gray')
-                svg.append('text')
+                globeSvg.append('text')
                     .text('no data avaliable')
                     .attr('x', 100)
                     .attr('y', chloroH - 20)
@@ -274,7 +276,7 @@
             // updateGlobe function
             // pass in geoJSON, must be called inside of d3.json
             function updateGlobe(json) {
-                svg.selectAll("path")
+                globeSvg.selectAll("path")
                     .data(json.features)
                     .join( function(enter) {
                         return enter.append("path")
@@ -308,13 +310,13 @@
                                         .attr('opacity', '0.75');
                                     // hovering text
                                     var mousepos = d3.pointer(event); 
-                                    svg.append('text')
+                                    globeSvg.append('text')
                                         .text(d3.select(this).attr('id'))
                                         .attr('id', 'hovercountry')
                                         .style('fill', 'black')
                                         .attr('x', mousepos[0] + 10)
                                         .attr('y', mousepos[1] - 10);
-                                    svg.append('text')
+                                    globeSvg.append('text')
                                         .text(d3.select(this).attr('dataVal') + ' %')
                                         .attr('id', 'hoverval')
                                         .style('fill', 'black')
@@ -366,13 +368,13 @@
                                         .attr('opacity', '0.75');
                                     // hovering text
                                     var mousepos = d3.pointer(event); 
-                                    svg.append('text')
+                                    globeSvg.append('text')
                                         .text(d3.select(this).attr('id'))
                                         .attr('id', 'hovercountry')
                                         .style('fill', 'black')
                                         .attr('x', mousepos[0] + 10)
                                         .attr('y', mousepos[1] - 10);
-                                    svg.append('text')
+                                    globeSvg.append('text')
                                         .text(d3.select(this).attr('dataVal') + ' %')
                                         .attr('id', 'hoverval')
                                         .style('fill', 'black')
