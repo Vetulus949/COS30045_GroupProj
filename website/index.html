@@ -15,10 +15,18 @@
 </head>
 <body>
     <p id="globe">
-        <p id="sliderValue">XXXX</p>
-        <input type="range", class="slider", id="yearSlider">
-        <br/>
-        <svg id="globesvg"></svg>
+        <div id="choroplethTools">
+            <p id="sliderValue" style="display: inline;">XXXX</p>
+            <input type="range", class="slider" id="yearSlider" style="display: inline;">
+        </div>
+        <div id="choropleth">
+            <svg id="globesvg" style="display: inline-block;"></svg>
+            <ul id="selectedCountries" style="display: inline-block; vertical-align: top;">
+                Selected Countries: 
+                <li style="list-style-type: none;"><button id="ClearSelection">Clear Selection</button></li>
+                <li style="list-style-type: none;"><br/></li>
+            </ul>
+        </div>
         <script>
             // setup variables
             var w = 990;
@@ -27,6 +35,7 @@
             var selectedYear;
             var colourRange;
             var values = [];
+            var selectedCountries = [];
             var svg = d3.select("#globesvg")
                     .attr("width", w)
                     .attr("height", h)
@@ -42,6 +51,7 @@
             // FUNCTIONS
             // #########
             // gets the data and returns in the form of a promise
+            // returning the promise means .then can be used
             function GetData() {
                 result = d3.csv("Data/DS_Tobacco.csv").then(function(d) {
                     dataset = d;
@@ -100,6 +110,13 @@
                     var dataMaxTime = d3.max(data, function(d){return d.TIME_PERIOD});
                     var dataMinTime = d3.min(data, function(d){return d.TIME_PERIOD});
                     var dataMaxVal = d3.max(data, function(d){return parseInt(d.OBS_VALUE)});
+                    // setup clear selection button
+                    d3.select("#ClearSelection")
+                        .on("click", function() {
+                            selectedCountries = []
+                            d3.selectAll("#selected")
+                                .remove()
+                        });
                     // set min and max of scale
                     d3.select("#yearSlider")
                         .attr("max", dataMaxTime)
@@ -225,7 +242,18 @@
             // will pas the index and reference of selected countries to another more easier
             //      workable variable
             function countryClicked(countryRef) {
-                console.log(countryRef);
+                if (! selectedCountries.includes(countryRef)) {
+                    console.log("country clicked")
+                    selectedCountries.push(countryRef)
+                }
+                d3.selectAll("#selected")
+                    .remove()
+                selectedCountries.forEach(function(item) {
+                    d3.select("#selectedCountries")
+                        .append("li")
+                        .text(item)
+                        .attr("id", "selected")
+                });
             }
             // update function
             // pass in geoJSON, must be called inside of d3.json
@@ -362,7 +390,7 @@
     <footer style="color:white ; background-color: gray;">
         <br/>
         Domenic Marulli - 103609316<br/>
-        Hritik Anand - #########<br/>
+        Hritik Anand - 104185477<br/>
         COS30045 Data Visualization - Data Visualization Project Website<br/>
         <br/>
     </footer>
