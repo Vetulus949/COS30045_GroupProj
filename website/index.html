@@ -8,6 +8,7 @@
     <title>Assignment</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script stc="https://d3js.org/d3-selection.v1.min.js"></script>
     <style>
 
     </style>
@@ -21,7 +22,7 @@
         <script>
             // setup variables
             var w = 990;
-            var h = 675;
+            var h = 700;
             var dataset;
             var selectedYear;
             var colourRange;
@@ -33,7 +34,7 @@
                     .attr("style", "background-color:LightSkyBlue");;
             var projection = d3.geoMercator()
                 .center([0, 0])
-                .translate([w/2, (h/3)*2])
+                .translate([w/2, (h/3)*2 - 25])
                 .scale(150);
             var path = d3.geoPath()
                 .projection(projection);
@@ -158,41 +159,67 @@
             }
             function makeKey(dataMaxVal) {
                 svg.append('rect')
-                        .attr('x', 50)
-                        .attr('y', h - 60)
-                        .attr('width', 20)
-                        .attr('height', 20)
-                        .style('fill', colourRange(0));
-                    svg.append('rect')
-                        .attr('x', 70)
-                        .attr('y', h - 60)
-                        .attr('width', 20)
-                        .attr('height', 20)
-                        .style('fill', colourRange(dataMaxVal / 4));
-                    svg.append('rect')
-                        .attr('x', 90)
-                        .attr('y', h - 60)
-                        .attr('width', 20)
-                        .attr('height', 20)
-                        .style('fill', colourRange(dataMaxVal / 4 * 2));
-                    svg.append('rect')
-                        .attr('x', 110)
-                        .attr('y', h - 60)
-                        .attr('width', 20)
-                        .attr('height', 20)
-                        .style('fill', colourRange(dataMaxVal / 4 * 3));
-                    svg.append('rect')
-                        .attr('x', 130)
-                        .attr('y', h - 60)
-                        .attr('width', 20)
-                        .attr('height', 20)
-                        .style('fill', colourRange(dataMaxVal));
-                    svg.append('rect')
-                        .attr('x', 50)
-                        .attr('y', h - 40)
-                        .attr('width', 20)
-                        .attr('height', 20)
-                        .style('fill', 'gray')
+                    .attr('x', 30)
+                    .attr('y', h - 80)
+                    .attr('width', 300)
+                    .attr('height', 75)
+                    .style('fill', 'silver')
+                svg.append('text')
+                    .text('percentage of population who smoke daily')
+                    .attr('x', 40)
+                    .attr('y', h - 60)
+                    .style('fill', 'black')
+                svg.append('text')
+                    .text('0 %')
+                    .attr('x', 45)
+                    .attr('y', h - 40)
+                    .style('fill', 'black')
+                svg.append('rect')
+                    .attr('x', 75)
+                    .attr('y', h - 55)
+                    .attr('width', 20)
+                    .attr('height', 20)
+                    .style('fill', colourRange(0));
+                svg.append('rect')
+                    .attr('x', 95)
+                    .attr('y', h - 55)
+                    .attr('width', 20)
+                    .attr('height', 20)
+                    .style('fill', colourRange(dataMaxVal / 4));
+                svg.append('rect')
+                    .attr('x', 115)
+                    .attr('y', h - 55)
+                    .attr('width', 20)
+                    .attr('height', 20)
+                    .style('fill', colourRange(dataMaxVal / 4 * 2));
+                svg.append('rect')
+                    .attr('x', 135)
+                    .attr('y', h - 55)
+                    .attr('width', 20)
+                    .attr('height', 20)
+                    .style('fill', colourRange(dataMaxVal / 4 * 3));
+                svg.append('rect')
+                    .attr('x', 155)
+                    .attr('y', h - 55)
+                    .attr('width', 20)
+                    .attr('height', 20)
+                    .style('fill', colourRange(dataMaxVal));
+                svg.append('text')
+                    .text(dataMaxVal + ' %')
+                    .attr('x', 180)
+                    .attr('y', h - 40)
+                    .style('fill', 'black')
+                svg.append('rect')
+                    .attr('x', 75)
+                    .attr('y', h - 35)
+                    .attr('width', 20)
+                    .attr('height', 20)
+                    .style('fill', 'gray')
+                svg.append('text')
+                    .text('no data avaliable')
+                    .attr('x', 100)
+                    .attr('y', h - 20)
+                    .style('fill', 'black')
             }
             // country clicked function
             // will pas the index and reference of selected countries to another more easier
@@ -215,6 +242,7 @@
                                     var value = values[i][0]
                                     var reference = values[i][2]
                                     d3.select(this).attr("id", function(){return reference;});
+                                    d3.select(this).attr("dataVal", function(){return value;});
                                     if (value) {
                                         return colourRange(value);
                                     } 
@@ -227,6 +255,43 @@
                             .on("click", function() {
                                 countryClicked(d3.select(this).attr("id"));
                             })
+                            .on("mouseover", function(d, i) {
+                                if (d3.select(this).attr('id'))
+                                {
+                                    // apply fade
+                                    d3.select(this).transition()
+                                        .duration(50)
+                                        .attr('opacity', '0.75');
+                                    // hovering text
+                                    var mousepos = d3.pointer(event); 
+                                    svg.append('text')
+                                        .text(d3.select(this).attr('id'))
+                                        .attr('id', 'hovercountry')
+                                        .style('fill', 'black')
+                                        .attr('x', mousepos[0] + 10)
+                                        .attr('y', mousepos[1] - 10);
+                                    svg.append('text')
+                                        .text(d3.select(this).attr('dataVal') + ' %')
+                                        .attr('id', 'hoverval')
+                                        .style('fill', 'black')
+                                        .attr('x', mousepos[0] + 10)
+                                        .attr('y', mousepos[1] + 10);
+                                }
+                            })
+                            .on("mouseout", function(d, i) {
+                                if (d3.select(this).attr('id'))
+                                {
+                                    // remove the fade
+                                    d3.select(this).transition()
+                                        .duration(50)
+                                        .attr('opacity', '1');
+                                    // remove hovering text
+                                    d3.select('#hovercountry')
+                                        .remove();
+                                    d3.select('#hoverval')
+                                        .remove();
+                                }
+                            });
                         },
                         function(update) {
                             return update.style("fill", function(d, i) {
@@ -235,6 +300,7 @@
                                     var value = values[i][0]
                                     var reference = values[i][2]
                                     d3.select(this).attr("id", function(){return reference;});
+                                    d3.select(this).attr("dataVal", function(){return value;});
                                     if (value) {
                                         return colourRange(value);
                                     } 
@@ -247,6 +313,43 @@
                             .on("click", function() {
                                 countryClicked(d3.select(this).attr("id"));
                             })
+                            .on("mouseover", function(d, i) {
+                                if (d3.select(this).attr('id'))
+                                {
+                                    // apply fade
+                                    d3.select(this).transition()
+                                        .duration(50)
+                                        .attr('opacity', '0.75');
+                                    // hovering text
+                                    var mousepos = d3.pointer(event); 
+                                    svg.append('text')
+                                        .text(d3.select(this).attr('id'))
+                                        .attr('id', 'hovercountry')
+                                        .style('fill', 'black')
+                                        .attr('x', mousepos[0] + 10)
+                                        .attr('y', mousepos[1] - 10);
+                                    svg.append('text')
+                                        .text(d3.select(this).attr('dataVal') + ' %')
+                                        .attr('id', 'hoverval')
+                                        .style('fill', 'black')
+                                        .attr('x', mousepos[0] + 10)
+                                        .attr('y', mousepos[1] + 10);
+                                }
+                            })
+                            .on("mouseout", function(d, i) {
+                                if (d3.select(this).attr('id'))
+                                {
+                                    // remove the fade
+                                    d3.select(this).transition()
+                                        .duration(50)
+                                        .attr('opacity', '1');
+                                    // remove hovering text
+                                    d3.select('#hovercountry')
+                                        .remove();
+                                    d3.select('#hoverval')
+                                        .remove();
+                                }
+                            });
                         }
                     ) 
                 };
