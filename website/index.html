@@ -211,7 +211,7 @@
                     .attr('y', chloroH - 80)
                     .attr('width', 300)
                     .attr('height', 75)
-                    .style('fill', 'silver')
+                    .style('fill', 'gray')
                 globeSvg.append('text')
                     .text('percentage of population who smoke daily')
                     .attr('x', 40)
@@ -256,18 +256,17 @@
                     .text(dataMaxVal + ' %')
                     .attr('x', 180)
                     .attr('y', chloroH - 40)
-                    .style('fill', 'black')
+                    .style('fill', 'black');
                 globeSvg.append('rect')
                     .attr('x', 75)
                     .attr('y', chloroH - 35)
                     .attr('width', 20)
-                    .attr('height', 20)
-                    .style('fill', 'gray')
+                    .attr('height', 20);
                 globeSvg.append('text')
                     .text('no data avaliable')
                     .attr('x', 100)
                     .attr('y', chloroH - 20)
-                    .style('fill', 'black')
+                    .style('fill', 'black');
             }
             // country clicked function
             // will pas the index and reference of selected countries to another more easier
