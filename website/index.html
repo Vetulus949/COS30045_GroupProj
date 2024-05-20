@@ -102,13 +102,14 @@
                             dataRef = data[i].ReferenceArea;
                             dataDate = parseInt(data[i].TIME_PERIOD);
                             dataVal = parseInt(data[i].OBS_VALUE);
+                            dataSex = data[i].Sex;
                             // check if a valid year is entered
                             if (dataDate <= selectedYear) {
                                 // loop through geoJSON
                                 for (var j = 0; j < json.features.length; j++) {
                                     // get reference area from json
                                     jsonRef = json.features[j].properties.name_long;
-                                    if (dataRef == jsonRef)
+                                    if (dataRef == jsonRef && dataSex == "Total")
                                     {
                                         if (values[j] == undefined)
                                         {
@@ -137,7 +138,15 @@
                 GetDSData().then(function(data){
                     var dataMaxTime = d3.max(data, function(d) { return d.TIME_PERIOD });
                     var dataMinTime = d3.min(data, function(d) { return d.TIME_PERIOD });
-                    var dataMaxVal = d3.max(data, function(d) { return parseInt(d.OBS_VALUE) });
+                    var dataMaxVal = d3.max(data, function(d) { 
+                        if (d.Sex == "Total")
+                        {
+                            return parseInt(d.OBS_VALUE) 
+                        }
+                        else
+                        {
+                            return 0
+                        }});
                     // setup clear selection button
                     d3.select("#ClearSelection")
                         .on("click", function() {
