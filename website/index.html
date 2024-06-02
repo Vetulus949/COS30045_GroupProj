@@ -429,6 +429,7 @@
             //
             function updateCancer() {
                 console.log("Showing country cancer rates")
+                cancerSvg.selectAll("*").remove()
                 // load csv files
                 GetDSData().then(function(DSData) {
                     GetCancerData().then(function(CancerData) {
@@ -520,6 +521,7 @@
                             .attr("class", "cancerLine")
                             .attr("id", "cancerLine")
                             .attr("d", cancerLine)
+                        console.log(CancerArray)
                     });
                 });
             }
