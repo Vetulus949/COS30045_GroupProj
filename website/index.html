@@ -6,6 +6,7 @@
     <meta name="keywords"       content="HTML, CSS, D3"/>
     <meta name="author"         content=""/>
     <title>Assignment</title>
+    <link rel="stylesheet" href="styles/style.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script stc="https://d3js.org/d3-selection.v1.min.js"></script>
@@ -20,11 +21,11 @@
 <body>
     <p id="globe">
         <!-- chloropleth stuff -->
-        <div id="choroplethTools">
-            <p id="sliderValue" style="display: inline;">XXXX</p>
-            <input type="range", class="slider" id="yearSlider" style="display: inline;">
-        </div>
         <div id="choropleth">
+            <div id="choroplethTools">
+                <p id="sliderValue" style="display: inline;">XXXX</p>
+                <input type="range", class="slider" id="yearSlider" style="display: inline;">
+            </div>
             <svg id="globesvg" style="display: inline-block;"></svg>
             <ul id="selectedCountries" style="display: inline-block; vertical-align: top;">
                 Selected Countries: 
