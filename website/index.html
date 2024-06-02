@@ -10,13 +10,6 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script stc="https://d3js.org/d3-selection.v1.min.js"></script>
-    <style>
-        .line {
-            fill: none;
-            stroke: gray;
-            stroke-width: 1px;
-        }
-    </style>
 </head>
 <body>
     <p id="globe">
@@ -35,6 +28,11 @@
         </div>
         <!-- line stuff -->
         <div id="line">
+            <select name="sex" id="sex">
+                <option value="Total">Total</option>
+                <option value="Male">Male</option>
+                <option value="Female">female</option>
+            </select>
             <svg id="cancersvg" style="display: inline-block;"></svg>
         </div>
         <script>
@@ -65,6 +63,9 @@
             var lineTimeScale;
             var lineDSScale;
             var lineCancerScale;
+            var axisLeft
+            var axisRight
+            var axisBottom
             var cancerSvg = d3.select("#cancersvg")
                 .attr("width", lineW)
                 .attr("height", lineH)
@@ -431,12 +432,55 @@
                 // load csv files
                 GetDSData().then(function(DSData) {
                     GetCancerData().then(function(CancerData) {
-                        // get scales
+                        // CODE FOR THE CORROLATION GRAPH
+                        sexCatagory = d3.select("#sex").node().value;
+                        // put data into a nice array
+                        // daily smokers
+                        var DSArray = [];
+                        DSData.forEach(element => {
+                            if (selectedCountries.includes(element.ReferenceArea) &&
+                                element.Sex == sexCatagory &&
+                                element.Age == "15 years or over") {
+                                DSArray.push([element.ReferenceArea, element.TIME_PERIOD, element.OBS_VALUE]);
+                            }
+                        }); // array needs to be sorted or it zig zags
+                        DSArray.sort(function(a, b) {if (a[1] === b[1]) {
+                                return 0;
+                            }
+                            else {
+                                return (a[1] < b[1]) ? -1 : 1;
+                            }
+                        }); 
+                        var DSMax = 1.1 * d3.max(DSArray, function(data) { return parseFloat(data[2])});
+                        // cancer rates
+                        var CancerArray = [];
+                        CancerData.forEach(element => {
+                            if (selectedCountries.includes(element.ReferenceArea) &&
+                                element.Sex == sexCatagory) {
+                                CancerArray.push([element.ReferenceArea, element.TIME_PERIOD, element.OBS_VALUE]);
+                            }
+                        }); // array needs to be sorted or it zig zags
+                        CancerArray.sort(function(a, b) {if (a[1] === b[1]) {
+                                return 0;
+                            }
+                            else {
+                                return (a[1] < b[1]) ? -1 : 1;
+                            }
+                        });
+                        var cancerMax = 1.1 * d3.max(CancerArray, function(data) {return parseFloat(data[2])});
+                        // setup time scale
+                        var minYearDS = d3.min(DSArray, function(data) {return parseFloat(data[1])});
+                        var maxYearDS = d3.max(DSArray, function(data) {return parseFloat(data[1])});
+                        var minYearCancer = d3.min(CancerArray, function(data) {return parseFloat(data[1])});
+                        var maxYearCancer = d3.max(CancerArray, function(data) {return parseFloat(data[1])});
+                        var minYear = d3.min([minYearCancer, minYearDS]);
+                        var maxYear = d3.max([maxYearCancer, maxYearDS]);
+                        // do scales
                         lineTimeScale = d3.scaleLinear()
-                            .domain([2010, 2022])
-                            .range([linePadding, lineW - linePadding]);
+                            .domain([minYear, maxYear])
+                            .range([linePadding, lineW - linePadding])
                         lineDSScale = d3.scaleLinear()
-                            .domain([d3.max(DSData, function(data) { return parseInt(data.OBS_VALUE) } ), 0])
+                            .domain([DSMax, 0])
                             .range([linePadding, lineH - linePadding]);
                         lineCancerScale = d3.scaleLinear()
                             .domain([d3.max(CancerData, function(data) { return parseInt(data.OBS_VALUE) } ), 0])
@@ -447,7 +491,8 @@
                         axisRight = d3.axisRight()
                             .scale(lineCancerScale);
                         axisBottom = d3.axisBottom()
-                            .scale(lineTimeScale);
+                            .scale(lineTimeScale)
+                            .tickFormat(d3.format("d"));
                         cancerSvg.append("g")
                             .attr("transform", "translate(" + linePadding + ",0)")
                             .call(axisLeft);
@@ -457,28 +502,24 @@
                         cancerSvg.append("g")
                             .attr("transform", "translate( 0, " + (lineH - linePadding) + ")")
                             .call(axisBottom);
-                        // put data into a nice array
-                        DSArray = []
-                        DSData.forEach(element => {
-                            if (selectedCountries.includes(element.ReferenceArea)) {
-                                DSArray.push([element.TIME_PERIOD, element.OBS_VALUE])
-                            }
-                        });
-                        DSArray.sort(function(a, b) {if (a[0] === b[0]) {
-                                return 0;
-                            }
-                            else {
-                                return (a[0] < b[0]) ? -1 : 1;
-                            }});
-                        // line data time
-                        line = d3.line()
-                            .x(function(d) {return lineTimeScale(d[0]); })
-                            .y(function(d) {return lineDSScale(d[1]); })
+                        // lines
+                        dsLine  = d3.line()
+                            .x(function(d) {return lineTimeScale(d[1]); })
+                            .y(function(d) {return lineDSScale(d[2]); })
+                        cancerLine = d3.line()
+                            .x(function(d) {return lineTimeScale(d[1]); })
+                            .y(function(d) {return lineCancerScale(d[2]); })
+                        // setup paths
                         cancerSvg.append("path")
                             .datum(DSArray)
-                            .attr("class", "line")
+                            .attr("class", "dsLine")
                             .attr("id", "dsLine")
-                            .attr("d", line);
+                            .attr("d", dsLine);
+                        cancerSvg.append("path")
+                            .datum(CancerArray)
+                            .attr("class", "cancerLine")
+                            .attr("id", "cancerLine")
+                            .attr("d", cancerLine)
                     });
                 });
             }

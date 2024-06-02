@@ -85,8 +85,20 @@ ul {
 .line {
     stroke: #0074d9; /* Blue line color */
     stroke-width: 2px;
+    fill: none;
 }
 
+.dsLine {
+    stroke: #0074d9; /* Blue line color */
+    stroke-width: 2px;
+    fill: none;
+}
+
+.cancerLine {
+    stroke: #ff4b0f;
+    stroke-width: 2px;
+    fill: none;
+}
 
 #hovercountry, #hoverval {
     pointer-events: none;
