@@ -297,6 +297,14 @@
                                 .attr("id", "selected")
                                 .on("click", function(){
                                     countryClicked(item)
+                                })
+                                .on("mouseover", function() {
+                                    d3.select(this)
+                                        .style("background-color", "lightgray")
+                                })
+                                .on("mouseout", function() {
+                                    d3.select(this)
+                                        .style("background-color", "white")
                                 });
                         });
                         updateCancer();
@@ -313,7 +321,15 @@
                                 .attr("id", "selected")
                                 .on("click", function(){
                                     countryClicked(item)
-                                });
+                                })
+                                .on("mouseover", function() {
+                                    d3.select(this)
+                                        .style("background-color", "lightgray")
+                                })
+                                .on("mouseout", function() {
+                                    d3.select(this)
+                                        .style("background-color", "white")
+                                });;
                         });
                     }
                 }
