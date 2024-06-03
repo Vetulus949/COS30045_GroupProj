@@ -284,19 +284,38 @@
             // will pas the index and reference of selected countries to another more easier
             //      workable variable
             function countryClicked(countryRef) {
-                if (! selectedCountries.includes(countryRef)
-                    && countryRef != "" && countryRef != null) {
-                    console.log("country clicked")
-                    selectedCountries.push(countryRef)
-                    d3.selectAll("#selected")
-                        .remove();
-                    selectedCountries.forEach(function(item) {
-                        d3.select("#selectedCountries")
-                            .append("li")
-                            .text(item)
-                            .attr("id", "selected");
-                    });
-                    updateCancer();
+                if (countryRef != "" && countryRef != null) {
+                    if (! selectedCountries.includes(countryRef)) {
+                        console.log("country clicked")
+                        selectedCountries.push(countryRef)
+                        d3.selectAll("#selected")
+                            .remove();
+                        selectedCountries.forEach(function(item) {
+                            d3.select("#selectedCountries")
+                                .append("li")
+                                .text(item)
+                                .attr("id", "selected")
+                                .on("click", function(){
+                                    countryClicked(item)
+                                });
+                        });
+                        updateCancer();
+                    }
+                    else {
+                        var index = selectedCountries.indexOf(countryRef)
+                        selectedCountries.splice(index, 1);
+                        d3.selectAll("#selected")
+                            .remove();
+                        selectedCountries.forEach(function(item) {
+                            d3.select("#selectedCountries")
+                                .append("li")
+                                .text(item)
+                                .attr("id", "selected")
+                                .on("click", function(){
+                                    countryClicked(item)
+                                });
+                        });
+                    }
                 }
             }
             // updateGlobe function
@@ -304,7 +323,8 @@
             function updateGlobe(json) {
                 globeSvg.selectAll("path")
                     .data(json.features)
-                    .join( function(enter) {
+                    .join( 
+                        function(enter) {
                         return enter.append("path")
                             .attr("d", path)
                             .style("fill", function(d,i) {
@@ -429,11 +449,22 @@
             //
             function updateCancer() {
                 console.log("Showing country cancer rates")
+                // clean the svg
                 cancerSvg.selectAll("*").remove()
                 // load csv files
                 GetDSData().then(function(DSData) {
                     GetCancerData().then(function(CancerData) {
-                        // CODE FOR THE CORROLATION GRAPH
+                        cancerSvg.selectAll("path")
+                            .data(DSData)
+                            .join(
+                                function(enter) {
+
+                                },
+                                function(update) {
+
+                                }
+                            )
+                        /*// CODE FOR THE CORROLATION GRAPH
                         sexCatagory = d3.select("#sex").node().value;
                         // put data into a nice array
                         // daily smokers
@@ -486,6 +517,10 @@
                         lineCancerScale = d3.scaleLinear()
                             .domain([d3.max(CancerData, function(data) { return parseInt(data.OBS_VALUE) } ), 0])
                             .range([linePadding, lineH - linePadding]);
+                        // colour scales
+                        opacityScale = d3.scaleLinear()
+                            .domain([1, selectedCountries.length])
+                            .range(0.3, 1)
                         // axis
                         axisLeft = d3.axisLeft()
                             .scale(lineDSScale);
@@ -504,24 +539,40 @@
                             .attr("transform", "translate( 0, " + (lineH - linePadding) + ")")
                             .call(axisBottom);
                         // lines
-                        dsLine  = d3.line()
-                            .x(function(d) {return lineTimeScale(d[1]); })
-                            .y(function(d) {return lineDSScale(d[2]); })
-                        cancerLine = d3.line()
-                            .x(function(d) {return lineTimeScale(d[1]); })
-                            .y(function(d) {return lineCancerScale(d[2]); })
+                        var dsLines = []
+                        var cancerLines = []
+                        for (i = 0; i < selectedCountries.length; i ++) {
+                            dsLine  = d3.line()
+                                .x(function(d) {
+                                    if (d[0])
+                                    return lineTimeScale(d[1]); 
+                                })
+                                .y(function(d) {
+                                    return lineDSScale(d[2]); 
+                                })
+                            dsLines.push(dsLine)
+                            cancerLine = d3.line()
+                                .x(function(d) {
+                                    return lineTimeScale(d[1]); 
+                                })
+                                .y(function(d) {
+                                    return lineCancerScale(d[2]); 
+                                })
+                            cancerLines.push(cancerLine)
+                        };
                         // setup paths
-                        cancerSvg.append("path")
-                            .datum(DSArray)
-                            .attr("class", "dsLine")
-                            .attr("id", "dsLine")
-                            .attr("d", dsLine);
-                        cancerSvg.append("path")
-                            .datum(CancerArray)
-                            .attr("class", "cancerLine")
-                            .attr("id", "cancerLine")
-                            .attr("d", cancerLine)
-                        console.log(CancerArray)
+                        for (i = 0; i < selectedCountries.length; i++) {
+                            cancerSvg.append("path")
+                                .datum(DSArray)
+                                .attr("class", "dsLine")
+                                .style("stroke", "rgba(255,0,0,"+opacityScale(i+1)+")")
+                                .attr("d", dsLine);
+                            cancerSvg.append("path")
+                                .datum(CancerArray)
+                                .attr("class", "cancerLine")
+                                .style("stroke", "rgba(0,0,255,"+opacityScale(i+1)+")")
+                                .attr("d", cancerLine);
+                        } */
                     });
                 });
             }
