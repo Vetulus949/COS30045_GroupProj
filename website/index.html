@@ -150,6 +150,10 @@
                         {
                             return 0
                         }});
+                    d3.select("#sex")
+                        .on("change", function() {
+                            updateCancer();
+                        });
                     // setup clear selection button
                     d3.select("#ClearSelection")
                         .on("click", function() {
@@ -333,6 +337,7 @@
                                         .style("background-color", "white")
                                 });;
                         });
+                        updateCancer();
                     }
                 }
             }
@@ -582,46 +587,92 @@
                                 dsCountries.push(tempDSArray);
                                 cancerCountries.push(tempCancerArray)
                             });
-                            console.log(dsCountries)
-                            console.log(cancerCountries)
-                            var dsLines = []
-                            var cancerLines = []
-                            for (i = 0; i < selectedCountries.length; i ++) {
-                                dsLine  = d3.line()
-                                    .x(function(d) {
-                                        if (d[0])
-                                        return lineTimeScale(d[1]); 
-                                    })
-                                    .y(function(d) {
-                                        return lineDSScale(d[2]); 
-                                    })
-                                dsLines.push(dsLine)
-                                cancerLine = d3.line()
-                                    .x(function(d) {
-                                        return lineTimeScale(d[1]); 
-                                    })
-                                    .y(function(d) {
-                                        return lineCancerScale(d[2]); 
-                                    })
-                                cancerLines.push(cancerLine)
-                            };
-                            // setup paths
-                            for (i = 0; i < selectedCountries.length; i++) {
+                            dsLine  = d3.line()
+                                .x(d => {
+                                    return lineTimeScale(d[1]); 
+                                })
+                                .y(d => {
+                                    return lineDSScale(d[2]); 
+                                })
+                            cancerLine = d3.line()
+                                .x(d => {
+                                    return lineTimeScale(d[1]); 
+                                })
+                                .y(d => {
+                                    return lineCancerScale(d[2]); 
+                                })
+                            // append paths
+                            for (var i = 0; i < selectedCountries.length; i++) {
                                 cancerSvg.append("path")
-                                    .datum(DSArray)
-                                    .attr("class", "dsLine")
-                                    .style("stroke", "rgba(255,0,0,"+opacityScale(i+1)+")")
-                                    .attr("d", dsLine);
+                                    .datum(dsCountries[i])
+                                    .attr("id", selectedCountries[i] + " - Daily Smokers")
+                                    .style("stroke", "red")//rgba(255,0,0,"+0.3+(0.7*((i+1)/selectedCountries.length))+")")
+                                    .style("fill", "none")
+                                    .style("stroke-width", "3px")
+                                    .style("opacity",0.1+(0.7*((i+1)/selectedCountries.length)))
+                                    .attr("d", dsLine)
+                                    .on("mouseover", function(d, i) {
+                                        if (d3.select(this).attr('id'))
+                                        {
+                                            // hovering text
+                                            var mousepos = d3.pointer(event); 
+                                            cancerSvg.append('text')
+                                                .text(d3.select(this).attr('id'))
+                                                .attr('id', 'hoverLine')
+                                                .style('fill', 'black')
+                                                .attr('x', mousepos[0] + 10)
+                                                .attr('y', mousepos[1]);// - 10);
+                                        }
+                                    })
+                                    .on("mouseout", function(d, i) {
+                                        if (d3.select(this).attr('id'))
+                                        {
+                                            // remove hovering text
+                                            d3.select('#hoverLine')
+                                                .remove();
+                                            /*d3.select('#hoverval')
+                                                .remove();*/
+                                        }
+                                    });
                                 cancerSvg.append("path")
-                                    .datum(CancerArray)
-                                    .attr("class", "cancerLine")
-                                    .style("stroke", "rgba(0,0,255,"+opacityScale(i+1)+")")
-                                    .attr("d", cancerLine);
+                                    .datum(cancerCountries[i])
+                                    .attr("id", selectedCountries[i] + " - Rates of Lung Cancer")
+                                    .style("stroke", "blue")
+                                    .style("fill", "none")
+                                    .style("stroke-width", "3px")
+                                    .style("opacity",0.1+(0.7*((i+1)/selectedCountries.length)))
+                                    .attr("d", cancerLine)
+                                    .on("mouseover", function(d, i) {
+                                        if (d3.select(this).attr('id'))
+                                        {
+                                            // hovering text
+                                            var mousepos = d3.pointer(event); 
+                                            cancerSvg.append('text')
+                                                .text(d3.select(this).attr('id'))
+                                                .attr('id', 'hoverLine')
+                                                .style('fill', 'black')
+                                                .attr('x', mousepos[0] + 10)
+                                                .attr('y', mousepos[1]);// - 10);
+                                        }
+                                    })
+                                    .on("mouseout", function(d, i) {
+                                        if (d3.select(this).attr('id'))
+                                        {
+                                            // remove hovering text
+                                            d3.select('#hoverLine')
+                                                .remove();
+                                            /*d3.select('#hoverval')
+                                                .remove();*/
+                                        }
+                                    });
                             }
                         });
                     });
                 } else {
-
+                    cancerSvg.selectAll("*").remove()
+                    cancerSvg.append("text")
+                        .text("click a country on the above map to show more data!")
+                        .attr("y", 50)
                 }
             }
             // call load function

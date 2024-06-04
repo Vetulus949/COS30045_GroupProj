@@ -83,6 +83,11 @@ ul {
     fill: none;
 }
 
+#dsLine, #cancerLine {
+    stroke-width: 2px;
+    fill: none;
+}
+
 #hovercountry, #hoverval {
     pointer-events: none;
     position: absolute;
