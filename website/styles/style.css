@@ -77,11 +77,6 @@ ul {
     padding-left: 20px;
 }
 
-
-#ClearSelection {
-    /*color: #ff0000;*/
-}
-
 .line {
     stroke: #0074d9; /* Blue line color */
     stroke-width: 2px;

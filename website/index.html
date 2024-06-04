@@ -39,8 +39,8 @@
             // setup variables
             var chloroW = 990;
             var chloroH = 700;
-            var lineW = 990;
-            var lineH = 500;
+            var lineW = 1050;
+            var lineH = 550;
             var linePadding = 50;
             var dataset;
             var cancerDataset;
@@ -213,6 +213,7 @@
                         }
                         // apply json
                         updateGlobe(json);
+                        updateCancer();
                     });
                 })
             }
@@ -464,133 +465,142 @@
             //
             //
             function updateCancer() {
-                console.log("Showing country cancer rates")
-                // clean the svg
-                cancerSvg.selectAll("*").remove()
-                // load csv files
-                GetDSData().then(function(DSData) {
-                    GetCancerData().then(function(CancerData) {
-                        cancerSvg.selectAll("path")
-                            .data(DSData)
-                            .join(
-                                function(enter) {
-
-                                },
-                                function(update) {
-
+                if (selectedCountries.length > 0) {
+                    console.log("Showing country cancer rates")
+                    // clean the svg
+                    cancerSvg.selectAll("*").remove()
+                    // load csv files
+                    GetDSData().then(function(DSData) {
+                        GetCancerData().then(function(CancerData) {
+                            // CODE FOR THE CORROLATION GRAPH
+                            sexCatagory = d3.select("#sex").node().value;
+                            // put data into a nice array
+                            // daily smokers
+                            var DSArray = [];
+                            DSData.forEach(element => {
+                                if (selectedCountries.includes(element.ReferenceArea) &&
+                                    element.Sex == sexCatagory && element.Age == "15 years or over") {
+                                    DSArray.push([element.ReferenceArea, element.TIME_PERIOD, element.OBS_VALUE]);
                                 }
-                            )
-                        /*// CODE FOR THE CORROLATION GRAPH
-                        sexCatagory = d3.select("#sex").node().value;
-                        // put data into a nice array
-                        // daily smokers
-                        var DSArray = [];
-                        DSData.forEach(element => {
-                            if (selectedCountries.includes(element.ReferenceArea) &&
-                                element.Sex == sexCatagory &&
-                                element.Age == "15 years or over") {
-                                DSArray.push([element.ReferenceArea, element.TIME_PERIOD, element.OBS_VALUE]);
-                            }
-                        }); // array needs to be sorted or it zig zags
-                        DSArray.sort(function(a, b) {if (a[1] === b[1]) {
-                                return 0;
-                            }
-                            else {
-                                return (a[1] < b[1]) ? -1 : 1;
-                            }
-                        }); 
-                        var DSMax = 1.1 * d3.max(DSArray, function(data) { return parseFloat(data[2])});
-                        // cancer rates
-                        var CancerArray = [];
-                        CancerData.forEach(element => {
-                            if (selectedCountries.includes(element.ReferenceArea) &&
-                                element.Sex == sexCatagory) {
-                                CancerArray.push([element.ReferenceArea, element.TIME_PERIOD, element.OBS_VALUE]);
-                            }
-                        }); // array needs to be sorted or it zig zags
-                        CancerArray.sort(function(a, b) {if (a[1] === b[1]) {
-                                return 0;
-                            }
-                            else {
-                                return (a[1] < b[1]) ? -1 : 1;
+                            }); // array needs to be sorted or it zig zags
+                            DSArray.sort(function(a, b) {if (a[1] === b[1]) {
+                                    return 0;
+                                }
+                                else {
+                                    return (a[1] < b[1]) ? -1 : 1;
+                                }
+                            }); 
+                            var DSMax = 1.1 * d3.max(DSArray, function(data) { return parseFloat(data[2])});
+                            // cancer rates
+                            var CancerArray = [];
+                            CancerData.forEach(element => {
+                                if (selectedCountries.includes(element.ReferenceArea) &&
+                                    element.Sex == sexCatagory) {
+                                    CancerArray.push([element.ReferenceArea, element.TIME_PERIOD, element.OBS_VALUE]);
+                                }
+                            }); // array needs to be sorted or it zig zags
+                            CancerArray.sort(function(a, b) {if (a[1] === b[1]) {
+                                    return 0;
+                                }
+                                else {
+                                    return (a[1] < b[1]) ? -1 : 1;
+                                }
+                            });
+                            var cancerMax = 1.1 * d3.max(CancerArray, function(data) {return parseFloat(data[2])});
+                            // setup time scale
+                            var minYearDS = d3.min(DSArray, function(data) {return parseFloat(data[1])});
+                            var maxYearDS = d3.max(DSArray, function(data) {return parseFloat(data[1])});
+                            var minYearCancer = d3.min(CancerArray, function(data) {return parseFloat(data[1])});
+                            var maxYearCancer = d3.max(CancerArray, function(data) {return parseFloat(data[1])});
+                            var minYear = d3.min([minYearCancer, minYearDS]);
+                            var maxYear = d3.max([maxYearCancer, maxYearDS]);
+                            // do scales
+                            lineTimeScale = d3.scaleLinear()
+                                .domain([minYear, maxYear])
+                                .range([linePadding, lineW - linePadding])
+                            lineDSScale = d3.scaleLinear()
+                                .domain([DSMax, 0])
+                                .range([linePadding, lineH - linePadding]);
+                            lineCancerScale = d3.scaleLinear()
+                                .domain([d3.max(CancerData, function(data) { return parseInt(data.OBS_VALUE) } ), 0])
+                                .range([linePadding, lineH - linePadding]);
+                            // colour scales
+                            opacityScale = d3.scaleLinear()
+                                .domain([1, selectedCountries.length])
+                                .range(0.3, 1)
+                            // axis
+                            axisLeft = d3.axisLeft()
+                                .scale(lineDSScale);
+                            axisRight = d3.axisRight()
+                                .scale(lineCancerScale);
+                            axisBottom = d3.axisBottom()
+                                .scale(lineTimeScale)
+                                .tickFormat(d3.format("d"));
+                            cancerSvg.append("g")
+                                .attr("transform", "translate(" + linePadding + ",0)")
+                                .call(axisLeft);
+                            cancerSvg.append("g")
+                                .attr("transform", "translate(" + (lineW - linePadding) + ",0)")
+                                .call(axisRight);
+                            cancerSvg.append("g")
+                                .attr("transform", "translate( 0, " + (lineH - linePadding) + ")")
+                                .call(axisBottom);
+                            // axis labels
+                            cancerSvg.append('text')
+                                .text('Year')
+                                .style('fill', 'black')
+                                .attr('x', lineW/2)
+                                .attr('y', lineH-10);
+                            cancerSvg.append('text')
+                                .text('Daily Smokers (% of population)')
+                                .attr('x', 10)
+                                .attr('y', lineH/2-120)
+                                .style('writing-mode', 'vertical-rl');
+                            cancerSvg.append('text')
+                                .text('Rates of Lung Cancer (per 100,000 people)')
+                                .attr('x', lineW-10)
+                                .attr('y', lineH/2-150)
+                                .style('writing-mode', 'vertical-rl');
+                            // lines
+                            var dsLines = []
+                            var cancerLines = []
+                            for (i = 0; i < selectedCountries.length; i ++) {
+                                dsLine  = d3.line()
+                                    .x(function(d) {
+                                        if (d[0])
+                                        return lineTimeScale(d[1]); 
+                                    })
+                                    .y(function(d) {
+                                        return lineDSScale(d[2]); 
+                                    })
+                                dsLines.push(dsLine)
+                                cancerLine = d3.line()
+                                    .x(function(d) {
+                                        return lineTimeScale(d[1]); 
+                                    })
+                                    .y(function(d) {
+                                        return lineCancerScale(d[2]); 
+                                    })
+                                cancerLines.push(cancerLine)
+                            };
+                            // setup paths
+                            for (i = 0; i < selectedCountries.length; i++) {
+                                cancerSvg.append("path")
+                                    .datum(DSArray)
+                                    .attr("class", "dsLine")
+                                    .style("stroke", "rgba(255,0,0,"+opacityScale(i+1)+")")
+                                    .attr("d", dsLine);
+                                cancerSvg.append("path")
+                                    .datum(CancerArray)
+                                    .attr("class", "cancerLine")
+                                    .style("stroke", "rgba(0,0,255,"+opacityScale(i+1)+")")
+                                    .attr("d", cancerLine);
                             }
                         });
-                        var cancerMax = 1.1 * d3.max(CancerArray, function(data) {return parseFloat(data[2])});
-                        // setup time scale
-                        var minYearDS = d3.min(DSArray, function(data) {return parseFloat(data[1])});
-                        var maxYearDS = d3.max(DSArray, function(data) {return parseFloat(data[1])});
-                        var minYearCancer = d3.min(CancerArray, function(data) {return parseFloat(data[1])});
-                        var maxYearCancer = d3.max(CancerArray, function(data) {return parseFloat(data[1])});
-                        var minYear = d3.min([minYearCancer, minYearDS]);
-                        var maxYear = d3.max([maxYearCancer, maxYearDS]);
-                        // do scales
-                        lineTimeScale = d3.scaleLinear()
-                            .domain([minYear, maxYear])
-                            .range([linePadding, lineW - linePadding])
-                        lineDSScale = d3.scaleLinear()
-                            .domain([DSMax, 0])
-                            .range([linePadding, lineH - linePadding]);
-                        lineCancerScale = d3.scaleLinear()
-                            .domain([d3.max(CancerData, function(data) { return parseInt(data.OBS_VALUE) } ), 0])
-                            .range([linePadding, lineH - linePadding]);
-                        // colour scales
-                        opacityScale = d3.scaleLinear()
-                            .domain([1, selectedCountries.length])
-                            .range(0.3, 1)
-                        // axis
-                        axisLeft = d3.axisLeft()
-                            .scale(lineDSScale);
-                        axisRight = d3.axisRight()
-                            .scale(lineCancerScale);
-                        axisBottom = d3.axisBottom()
-                            .scale(lineTimeScale)
-                            .tickFormat(d3.format("d"));
-                        cancerSvg.append("g")
-                            .attr("transform", "translate(" + linePadding + ",0)")
-                            .call(axisLeft);
-                        cancerSvg.append("g")
-                            .attr("transform", "translate(" + (lineW - linePadding) + ",0)")
-                            .call(axisRight);
-                        cancerSvg.append("g")
-                            .attr("transform", "translate( 0, " + (lineH - linePadding) + ")")
-                            .call(axisBottom);
-                        // lines
-                        var dsLines = []
-                        var cancerLines = []
-                        for (i = 0; i < selectedCountries.length; i ++) {
-                            dsLine  = d3.line()
-                                .x(function(d) {
-                                    if (d[0])
-                                    return lineTimeScale(d[1]); 
-                                })
-                                .y(function(d) {
-                                    return lineDSScale(d[2]); 
-                                })
-                            dsLines.push(dsLine)
-                            cancerLine = d3.line()
-                                .x(function(d) {
-                                    return lineTimeScale(d[1]); 
-                                })
-                                .y(function(d) {
-                                    return lineCancerScale(d[2]); 
-                                })
-                            cancerLines.push(cancerLine)
-                        };
-                        // setup paths
-                        for (i = 0; i < selectedCountries.length; i++) {
-                            cancerSvg.append("path")
-                                .datum(DSArray)
-                                .attr("class", "dsLine")
-                                .style("stroke", "rgba(255,0,0,"+opacityScale(i+1)+")")
-                                .attr("d", dsLine);
-                            cancerSvg.append("path")
-                                .datum(CancerArray)
-                                .attr("class", "cancerLine")
-                                .style("stroke", "rgba(0,0,255,"+opacityScale(i+1)+")")
-                                .attr("d", cancerLine);
-                        } */
                     });
-                });
+                } else {
+
+                }
             }
             // call load function
             Load()
